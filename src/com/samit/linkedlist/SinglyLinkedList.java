@@ -2,19 +2,19 @@ package com.samit.linkedlist;
 
 public class SinglyLinkedList {
 
-    private ListNode head;
+    private ListNode<Integer> head;
 
-    private static class ListNode {
-        private int data;
-        private ListNode next;
-        public ListNode(int data) {
+    private static class ListNode<T> {
+        private T data;
+        private ListNode<T> next;
+        public ListNode(T data) {
             this.data = data;
             this.next = null;
         }
     }
 
     private void insertAtBegining(int data){
-        ListNode node=new ListNode(data);
+        ListNode<Integer> node=new ListNode<Integer>(data);
         if (head==null){
             head=node;
         }else{
@@ -24,12 +24,12 @@ public class SinglyLinkedList {
     }
 
     private void insertAtEnd(int data){
-        ListNode node=new ListNode(data);
+    	ListNode<Integer> node=new ListNode<Integer>(data);
         if (head==null){
             head=node;
             return;
         }else{
-           ListNode current=head;
+        	ListNode<Integer> current=head;
            while(current.next!=null){
               current=current.next;
            }
@@ -37,25 +37,25 @@ public class SinglyLinkedList {
         }
     }
     private void insertAtMid(int pos,int data){
-        ListNode node=new ListNode(data);
+    	ListNode<Integer> node=new ListNode<Integer>(data);
         if (head==null){
             head=node;
             return;
         }else{
             int count=1;
-            ListNode firstNode=head;
+            ListNode<Integer> firstNode=head;
             while(count!=pos-1){
                 firstNode=firstNode.next;
                 count++;
             } 
-            ListNode secondNode= firstNode.next;
+            ListNode<Integer> secondNode= firstNode.next;
             firstNode.next=node;
             node.next=secondNode;  
         }
     }
 
     private void display() {
-        ListNode temp = head;
+    	ListNode<Integer> temp = head;
         while (temp != null) {
             System.out.print(temp.data + "->");
             temp = temp.next;
@@ -64,7 +64,7 @@ public class SinglyLinkedList {
     }
     
     private void deleteLast() {
-    	ListNode temp = head;
+    	ListNode<Integer> temp = head;
     	while (temp.next.next!=null) {
     		temp=temp.next;
     	}
@@ -75,7 +75,7 @@ public class SinglyLinkedList {
     	if (head==null) {
     		return;
     	}else {
-    		ListNode temp=head;
+    		ListNode<Integer> temp=head;
     		head=head.next;
     		temp.next=null;
     	}
@@ -86,19 +86,32 @@ public class SinglyLinkedList {
             return;
         }else{
             int count=1;
-            ListNode firstNode=head;
+            ListNode<Integer> firstNode=head;
             while(count!=pos-1){
                 firstNode=firstNode.next;
                 count++;
             } 
-            ListNode secondNode= firstNode.next.next;
+            ListNode<Integer> secondNode= firstNode.next.next;
             firstNode.next=secondNode;
         }
+    }
+    
+    private void reverseLinkedList() {
+    	ListNode<Integer> current=head;
+    	ListNode<Integer> previous=null;
+    	ListNode<Integer> next=null;
+    	while (current!=null) {
+    		next=current.next;
+    		current.next=previous;
+    		previous=current;
+    		current=next;
+    	}
+    	head=previous;
     }
 
     public static void main(String[] args) {
         SinglyLinkedList sll = new SinglyLinkedList();
-        sll.head = new ListNode(10);
+        sll.head = new ListNode<Integer>(10);
         System.out.println("Before insert at begining....");
         sll.display();
         sll.insertAtBegining(8);
@@ -128,6 +141,10 @@ public class SinglyLinkedList {
         int data=2;
         System.out.println("Delete the node from the given position at "+data);
         sll.deleteAtMid(data);
+        sll.display();
+        
+        System.out.println("Reverse the linked list");
+        sll.reverseLinkedList();
         sll.display();
     }
 }
