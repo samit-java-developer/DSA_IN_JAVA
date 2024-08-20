@@ -157,7 +157,7 @@ public class SinglyLinkedListExample {
 		third.next=fourth;
 		fourth.next=fifth;
 		fifth.next=sixth;
-		sixth.next=seven;
+		sixth.next=seven; 
 		seven.next=eight;
 		
 		sll.display();
