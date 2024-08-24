@@ -23,6 +23,22 @@ public class GCD {
 		}
 		return a;
 	}
+	
+	static int findLCM(int a, int b) {
+		int res=Math.max(a,b);
+		while (true) {
+			if (res%a==0 && res%b==0) {
+				break;
+			}
+			res++;
+		}
+		return res;
+	}
+	
+	static int findLCMSecondWay(int a, int b) {
+		int gcd=gcdEfficientEuclid(a, b);
+		return a*b/gcd;
+	}
 	static int gcdEfficientEuclid(int a,int b){
 		if (b==0) {
 			return a;
@@ -32,7 +48,7 @@ public class GCD {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(gcdEfficientEuclid(10, 20));
+		System.out.println(findLCMSecondWay(99, 20));
 	}
 
 }
