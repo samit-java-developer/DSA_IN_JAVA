@@ -1,6 +1,5 @@
 package com.samit.array;
 
-
 public class MaximumDifferenceinArr {
 
 	// arr[j]-arr[i] and j>i

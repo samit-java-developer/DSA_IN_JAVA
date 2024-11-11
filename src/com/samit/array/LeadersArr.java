@@ -11,6 +11,7 @@ public class LeadersArr {
 					continue;
 				} else if (ele <= arr[j]) {
 					flag = false;
+					break;
 				}
 			}
 			if (flag)
@@ -19,7 +20,7 @@ public class LeadersArr {
 	}
 
 	public static void main(String[] args) {
-		int[] arr= {7,10,4,10,6,5,2};
+		int[] arr = { 7, 10, 4, 10, 6, 5, 2 };
 		leaders(arr);
 	}
 
