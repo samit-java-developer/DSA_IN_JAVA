@@ -61,7 +61,6 @@ public class PrimeFactorization {
 		// primeFactor(n);
 		//primeFactorOptimised(n);
 		primeFactorMostOptimised(n);
-		System.out.println(3 * 3 * 11 * 101);
 	}
 
 }

@@ -15,7 +15,7 @@ public class TrailingZerosInFactorial {
 		return res;
 	}
 	
-	static int countZerosInEfficentWay(int n) {
+	static int countZerosInEfficientWay(int n) {
 		int res=0;
 		for (int i=5;i<=n;i=i*5) {
 			res=res+n/i;
@@ -25,7 +25,7 @@ public class TrailingZerosInFactorial {
 	
 	public static void main(String[] args) {
 		try {
-			System.out.println(countZerosInEfficentWay(125));
+			System.out.println(countZerosInEfficientWay(125));
 		}catch (Exception e) {
 			System.out.println(e);
 		}

@@ -15,11 +15,19 @@ public class SubSetsOfString {
 		subSet(s, curr + ch, i + 1,sets);
 	}
 
+	static void subSet2(String s, String curr,int i) {
+		if (i == s.length()) {
+			System.out.println(curr);
+			return;
+		}
+		char ch = s.charAt(i);
+		subSet2(s, curr + ch, i + 1);
+		subSet2(s, curr , i + 1);
+	}
+
 	public static void main(String[] args) {
 		String s = "ABCD";
 		Set<String> sets=new HashSet<String>();
-		subSet(s, "", 0,sets);
-		System.out.println(sets);
+		subSet2(s, "", 0);
 	}
-
 }
