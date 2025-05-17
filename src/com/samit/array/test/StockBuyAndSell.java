@@ -6,6 +6,8 @@ public class StockBuyAndSell {
         int[] prices={1,5,3,8,12};
         int profit=maxProfit(prices,0,prices.length-1);
         System.out.println(profit);
+        profit=maxProfitEfficient(prices);
+        System.out.println(profit);
     }
     static int maxProfit(int[] prices,int start,int end) {
         if(start>=end){
@@ -18,6 +20,15 @@ public class StockBuyAndSell {
                     int currentProfit = prices[j]-prices[i]+maxProfit(prices,start,i-1)+maxProfit(prices,j+1,end);
                     maxProfit = Math.max(maxProfit,currentProfit);
                 }
+            }
+        }
+        return maxProfit;
+    }
+    static int maxProfitEfficient(int[] prices) {
+        int maxProfit = 0;
+        for (int i=1;i<prices.length;i++) {
+            if (prices[i]>prices[i-1]) {
+                maxProfit = maxProfit+(prices[i]-prices[i-1]);
             }
         }
         return maxProfit;

@@ -5,6 +5,7 @@ public class PrintFreq {
         int[] arr={1,1,2,2,3,3,3,4,4,4,5};
         printFreq(arr);
     }
+
     static void printFreq(int[] arr) {
         int n = arr.length;
         int frequency = 1;
