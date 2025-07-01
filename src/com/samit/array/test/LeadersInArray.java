@@ -1,7 +1,5 @@
 package com.samit.array.test;
 
-import java.util.Arrays;
-
 public class LeadersInArray {
 
     public static void main(String[] args) {
