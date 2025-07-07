@@ -2,7 +2,7 @@ package com.samit.mathematics;
 
 public class GCD {
 	
-	static int gcdNavieApproach(int a,int b){
+	static int gcdNApproach(int a,int b){
 		int res=Math.min(a, b);
 		while (res>0) {
 			if (a%res==0 && b%res==0) {

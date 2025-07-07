@@ -16,6 +16,20 @@ public class PrimeFactorization {
 		}
 	}
 
+	static void primeFactor2(int n) {
+		if (n <= 1)
+			return;
+		for (int i = 2; i < n; i++) {
+			if (PrimeNo.isPrimeThirdWay(i)) {
+				int x = i;
+				while (n % x == 0) {
+					System.out.print(i + " ");
+					n=n/x;
+				}
+			}
+		}
+	}
+
 	static void primeFactorOptimised(int n) {
 		if (n <= 1)
 			return;
@@ -56,10 +70,14 @@ public class PrimeFactorization {
 	}
 
 	public static void main(String[] args) {
-		int n = 9999;
+		int n = 100;
 		System.out.println("The prime factor of " + n + " is ");
-		// primeFactor(n);
-		//primeFactorOptimised(n);
+		primeFactor(n);
+		System.out.println();
+		primeFactor2(n);
+		System.out.println();
+		primeFactorOptimised(n);
+		System.out.println();
 		primeFactorMostOptimised(n);
 	}
 
