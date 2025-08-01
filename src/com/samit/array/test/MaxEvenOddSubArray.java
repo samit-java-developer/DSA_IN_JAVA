@@ -3,11 +3,13 @@ package com.samit.array.test;
 public class MaxEvenOddSubArray {
 
     public static void main(String[] args) {
-        //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-        int[] arr = {5,10,20,6,3,8};
+        int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        //int[] arr = {5,10,20,6,3,8};
         int res=maxEvenOddSubArrayEfficient(arr);
         System.out.println(res);
         res=maxEvenOddSubArray(arr);
+        System.out.println(res);
+        res=maxEvenOddSubArrayVeryEfficient(arr);
         System.out.println(res);
     }
 
@@ -41,5 +43,21 @@ public class MaxEvenOddSubArray {
             i++;
         }
         return result;
+    }
+
+    static int maxEvenOddSubArrayVeryEfficient(int[] arr){
+        int res=Integer.MIN_VALUE;
+        boolean previousEven= arr[0] % 2 == 0;
+        int curr=1;
+        for (int i=1;i<arr.length;i++){
+            if (arr[i]%2==0 && !previousEven || arr[i]%2!=0 && previousEven) {
+                curr++;
+                res=Math.max(res,curr);
+                previousEven= arr[i] % 2 == 0;
+                continue;
+            }
+            curr=1;
+        }
+        return res;
     }
 }

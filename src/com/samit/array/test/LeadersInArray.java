@@ -16,7 +16,7 @@ public class LeadersInArray {
                     flag = true;
                 }
             }
-            if (flag == false){
+            if (!flag){
                 System.out.print(arr[i]+" ");
             }
         }
