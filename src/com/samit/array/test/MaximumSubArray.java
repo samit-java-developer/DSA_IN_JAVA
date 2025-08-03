@@ -1,6 +1,6 @@
 package com.samit.array.test;
 
-public class MaxiumSubArray {
+public class MaximumSubArray {
     public static void main(String[] args) {
         int[] arr={1,2,-7,0,2,3};
         int result=arr[0];
