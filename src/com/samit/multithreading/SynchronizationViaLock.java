@@ -13,14 +13,14 @@ class BankAccount{
     public void withdrawAmount(int amount){
         int count=0;
         boolean withdrawl=false;
-        System.out.println(Thread.currentThread().getName() + " attempting to withdraw " + amount);
         while (count<3 && !withdrawl){
+            System.out.println(Thread.currentThread().getName() + " attempting to withdraw " + amount);
             try {
-                if (lock.tryLock(1000, TimeUnit.MILLISECONDS)){
+                if (lock.tryLock()){
                     if (amount<=balance){
                         try {
                             System.out.println(Thread.currentThread().getName() + " proceeding with withdrawal");
-                            Thread.sleep(100); // Simulate time taken to process the withdrawal
+                            //Thread.sleep(100); // Simulate time taken to process the withdrawal
                             balance -= amount;
                             System.out.println(Thread.currentThread().getName() + " completed withdrawal. Remaining balance: " + balance);
                         } catch (Exception e) {
