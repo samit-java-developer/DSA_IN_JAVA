@@ -28,6 +28,7 @@ public class MaximumAppearingElementInRange {
         System.out.println(xx);
         int res=maxAppearEle(left,right);
         System.out.println(res);
+
     }
     static int maxAppearEle(int[] left,int[] right){
         int leftMax=Arrays.stream(left).mapToObj(e->(int)e).max((a,b)->a-b).get();
