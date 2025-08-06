@@ -4,18 +4,12 @@ import java.util.Arrays;
 
 public class ReverseArrayInGroups {
     public static void main(String[] args) {
-        int[] arr={1,2,3,4,5,6,7,8,9,10};
-        System.out.println(Arrays.toString(arr));
-        int k=2;
-        int previous=0;
-        int next=k;
-        int difference=k;
-        do{
-            swapTheArray(arr,previous,next-1);
-            k=k+difference;
-            previous=k-difference;
-            next=k;
-        }while(k<=arr.length);
+        int[] arr={1, 2, 3, 4, 5};
+        int k=3;
+        for (int i=0;i<arr.length;i=i+k){
+            int end=i+k>arr.length?arr.length-1:(i+k)-1;
+            swapTheArray(arr, i,end);
+        }
         System.out.println(Arrays.toString(arr));
     }
     static void swapTheArray(int[] arr,int first,int last){
