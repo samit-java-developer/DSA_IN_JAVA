@@ -5,6 +5,10 @@ public class MaxWaterProblem {
         int[] arr={3,0,1,0,4,0,2};
         int res=maxWater(arr);
         System.out.println(res);
+        int x=10;
+        int y=93;
+        res=x-y;
+        System.out.println(Math.abs(res));
     }
 
     public static int maxWater(int arr[]) {
