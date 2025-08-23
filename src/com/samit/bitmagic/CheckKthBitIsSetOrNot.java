@@ -1,27 +1,21 @@
 package com.samit.bitmagic;
 
+import java.util.Scanner;
+
 public class CheckKthBitIsSetOrNot {
 
 	public static void main(String[] args) {
-		int x = 1;
-		int k = 4;
-		int n = 10;
-		for (int i = 0; i < (k - 1); i++) {
-			x = x * 2;
-		}
-		if ((n & x) != 0) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		int k=sc.nextInt();
+		int x=(int)Math.pow(2,k-1);
+		System.out.println(x);
+		if ((n&x)!=0){
 			System.out.println("Yes");
-		} else {
-			System.out.println("No");
-		}
-
-		x = 1;
-		System.out.println("---------------------------");
-		if ((n & (x << (k - 1))) != 0) {
-			System.out.println("Yes");
-		} else {
+		}else{
 			System.out.println("No");
 		}
 	}
+
 
 }
