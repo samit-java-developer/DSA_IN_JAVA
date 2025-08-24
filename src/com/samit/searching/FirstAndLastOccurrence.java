@@ -1,5 +1,7 @@
 package com.samit.searching;
 
+import java.util.Arrays;
+
 public class FirstAndLastOccurrence {
 
     public static void main(String[] args) {
@@ -18,7 +20,51 @@ public class FirstAndLastOccurrence {
         }else{
             System.out.println("NA");
         }
+        int[] res=findFirstAndLastOccurrence(arr,arr.length,x);
+        System.out.println(Arrays.toString(res));
+    }
 
+    static int[] findFirstAndLastOccurrence(int[] arr,int n,int x){
+        int[] result=new int[2];
+        int low=0;
+        int high=n-1;
+        int first=0;
+        int last=0;
+        while (low<=high){
+            int mid=low+(high-low)/2;
+            if (x>arr[mid]){
+                low=mid+1;
+            }else if (x<arr[mid]){
+                high=mid-1;
+            }else{
+                if (mid==0 || arr[mid]!=arr[mid-1]){
+                    first=mid;
+                    break;
+                }else{
+                    high=mid-1;
+                }
+            }
+        }
+        low=0;
+        high=n-1;
+        while (low<=high){
+            int mid=low+(high-low)/2;
+            if (x>arr[mid]){
+                low=mid+1;
+            }else if (x<arr[mid]){
+                high=mid-1;
+            }else{
+                if (mid==n-1 || arr[mid]!=arr[mid+1]){
+                    last=mid;
+                    break;
+                }else{
+                    low=mid+1;
+                }
+            }
+        }
+        result[0]=first;
+        result[1]=last;
+        return result;
     }
 
     static int findFirstOccurrence(int[] arr,int x){
