@@ -15,6 +15,9 @@ public class FirstRepeat {
         System.out.println(x);
         x=findRepeatEfficient(arr);
         System.out.println(x);
+        int[] zeroArr={0,2,1,3,5,4,6,2};
+        x=findRepeatEfficientZeroArr(zeroArr);
+        System.out.println(x);
     }
 
     static int findRepeatSuperNaive(int[] arr){
@@ -54,4 +57,20 @@ public class FirstRepeat {
         }
         return slow;
      }
+
+    static int findRepeatEfficientZeroArr(int[] arr){
+        int slow=arr[0]+1;
+        int fast=arr[0]+1;
+        do{
+            slow=arr[slow]+1;
+            fast=arr[arr[fast]+1]+1;
+        }
+        while (slow!=fast);
+        slow=arr[0]+1;
+        while (slow!=fast){
+            slow=arr[slow]+1;
+            fast=arr[fast]+1;
+        }
+        return slow-1;
+    }
 }
