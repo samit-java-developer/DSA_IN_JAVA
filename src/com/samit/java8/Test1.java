@@ -1,6 +1,7 @@
 package com.samit.java8;
 
 import java.util.*;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -94,5 +95,9 @@ public class Test1 {
 		Function<Employee, Boolean> getName=(employee)-> true;
 
 		//Function<Employee,Boolean> msmsm=Objects.isNull(resss)?ub->false:
+
+		BiFunction<Employee,Employee,Integer> biFunction=( e1,  e2) ->{
+				return e1.age+e2.age;
+		};
 	}
 }
