@@ -18,14 +18,14 @@ public class PartitionQuickSort {
 
     static void partitionNaive(int[] arr, int h){
         int[] temp=new int[h +1];
-        int pivot=arr[6];
+        int pivot=arr[h];
         int k=0;
         for (int i = 0; i<=h; i++){
-            if (arr[i]<pivot && i!= 6){
+            if (arr[i]<pivot && i!= h){
                 temp[k++]=arr[i];
             }
         }
-        temp[k++]=arr[6];
+        temp[k++]=arr[h];
         for (int i = 0; i<=h; i++){
             if (arr[i]>pivot){
                 temp[k++]=arr[i];
