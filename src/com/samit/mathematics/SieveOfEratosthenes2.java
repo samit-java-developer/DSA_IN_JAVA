@@ -1,6 +1,8 @@
 package com.samit.mathematics;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class SieveOfEratosthenes2 {
 
@@ -19,6 +21,23 @@ public class SieveOfEratosthenes2 {
 				System.out.print(i + " ");
 		}
 
+	}
+
+	static List<Integer> primesInRange(int n){
+		boolean[] isPrime=new boolean[n+1];
+		Arrays.fill(isPrime,true);
+		List<Integer> list=new ArrayList<>();
+		for (int i=2;i*i<=n;i++){
+			if (isPrime[i]){
+				for (int j=i*2;j<=n;j=j+i){
+					isPrime[j]=false;
+				}
+			}
+		}
+		for (int i=2;i<=n;i++){
+			if (isPrime[i]) list.add(i);
+		}
+		return list;
 	}
 
 	public static int exactly3Divisors(int N) {
@@ -48,6 +67,11 @@ public class SieveOfEratosthenes2 {
 		System.out.println(exactly3Divisors(67));
 
 		System.out.println((double)87 / 83);
+
+		System.out.println();
+
+		List<Integer> list=primesInRange(25);
+		list.forEach(x->System.out.print(x+" "));
 
 	}
 
