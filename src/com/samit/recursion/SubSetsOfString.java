@@ -28,6 +28,16 @@ public class SubSetsOfString {
 	public static void main(String[] args) {
 		String s = "ABCD";
 		Set<String> sets=new HashSet<String>();
-		subSet2(s, "", 0);
+		subSet(s, "", 0);
+	}
+
+	static void subSet(String input,String curr,int i){
+		if (i==input.length()){
+			System.out.print(curr+" ");
+			return;
+		}
+		char ch=input.charAt(i);
+		subSet(input,curr+ch,i+1);
+		subSet(input,curr,i+1);
 	}
 }
