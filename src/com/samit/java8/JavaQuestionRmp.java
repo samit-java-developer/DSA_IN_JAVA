@@ -6,11 +6,10 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Test1 {
+public class JavaQuestionRmp {
 
 	public static void main(String[] args) {
 		List<Employee> employeeList = new ArrayList<Employee>();
-		//Ji
 		employeeList.add(new Employee(111, "Jiy", 32, "Female", "HR", 2011, 25000.0));
 		employeeList.add(new Employee(122, "Paul Niksui", 25, "Male", "Sales And Marketing", 2015, 13500.0));
 		employeeList.add(new Employee(133, "Martin Theron", 29, "Male", "Infrastructure", 2012, 18000.0));
