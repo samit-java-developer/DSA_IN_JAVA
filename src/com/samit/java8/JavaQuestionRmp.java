@@ -35,25 +35,25 @@ public class JavaQuestionRmp {
 
 		System.out.println("--------------------------\n");
 		// 2. Write a program to print the names of all departments in the organization.
-		employeeList.stream().map(e -> e.getName()).distinct().collect(Collectors.toList())
+		employeeList.stream().map(Employee::getName).distinct().toList()
 				.forEach(System.out::println);
 
 		System.out.println("--------------------------\n");
 		// 3. Find the average age of Male and Female Employees.
 		Map<String, Double> averageAgeOfMaleandFemale = employeeList.stream()
 				.collect(Collectors.groupingBy(Employee::getGender, Collectors.averagingDouble(Employee::getSalary)));
-		averageAgeOfMaleandFemale.entrySet().stream().forEach(System.out::println);
+		averageAgeOfMaleandFemale.entrySet().forEach(System.out::println);
 		System.out.println("--------------------------\n");
 
 		// 4. Get the Names of employees who joined after 2015.
 		long noOfEmployeeWhojoinedafter2015 = employeeList.stream().filter(e -> e.getYearOfJoining() > 2015)
-				.map(e -> e.getYearOfJoining()).count();
+				.map(Employee::getYearOfJoining).count();
 		System.out.println(noOfEmployeeWhojoinedafter2015);
 		System.out.println("--------------------------\n");
 
 		// 7. Find out the oldest employee, his/her age and department?
 		List<Employee> oldestEmployee = employeeList.stream().sorted(Comparator.comparingInt(Employee::getAge))
-				.collect(Collectors.toList());
+				.toList();
 		System.out.println(oldestEmployee.get(oldestEmployee.size() - 1));
 
 		System.out.println("--------------------------\n");
