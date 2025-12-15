@@ -53,6 +53,21 @@ public class MergeOverLappingIntervals {
         System.out.println();
         Interval[] result=mergedInterval(arr,arr.length);
         Arrays.stream(result).forEach(System.out::println);
+
+        int[][] arr2D=new int[3][2];
+        arr2D[0][0]=5;
+        arr2D[0][1]=10;
+
+        arr2D[1][0]=3;
+        arr2D[1][1]=15;
+
+        arr2D[2][0]=18;
+        arr2D[2][1]=30;
+
+        arr2D[3][0]=2;
+        arr2D[3][1]=7;
+
+        Arrays.sort(arr2D,(o1,o2)->o1[0]-o2[0]);
     }
 
     static Interval[] mergedInterval(Interval[] arr,int n){
