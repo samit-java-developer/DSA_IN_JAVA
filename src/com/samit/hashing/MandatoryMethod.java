@@ -1,6 +1,6 @@
 package com.samit.hashing;
 
-public interface Mandotrymethod {
+public interface MandatoryMethod {
 
     boolean search(int key);
     boolean insert(int key);

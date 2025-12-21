@@ -2,7 +2,7 @@ package com.samit.hashing;
 
 import java.util.Arrays;
 
-public class HashingOpenAddressing implements Mandotrymethod{
+public class HashingOpenAddressing implements MandatoryMethod{
     // linear probing.....
     final int[] arr;
     final int cap;
@@ -64,7 +64,7 @@ public class HashingOpenAddressing implements Mandotrymethod{
     }
 
     public static void main(String[] args) {
-        Mandotrymethod table=new HashingOpenAddressing(7);
+        MandatoryMethod table=new HashingOpenAddressing(7);
         table.insert(49);
         table.insert(56);
         table.insert(72);
