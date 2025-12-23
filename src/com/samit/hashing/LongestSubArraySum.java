@@ -42,14 +42,11 @@ public class LongestSubArraySum {
             if (pre_sum==sum){
                 res=Math.max(res,i+1);
             }
-            if (map.containsKey(pre_sum-sum)){
-                if (map.get(pre_sum-sum)==0){
-                    res=Math.max((i-map.get(pre_sum-sum)),res);
-                }else{
-                    res=Math.max((i-map.get(pre_sum-sum))+1,res);
-                }
-            }else{
+            if (!map.containsKey(pre_sum)){
                 map.put(pre_sum,i);
+            }
+            if (map.containsKey(pre_sum-sum)){
+                res=Math.max((i-map.get(pre_sum-sum)),res);
             }
         }
         return res;
