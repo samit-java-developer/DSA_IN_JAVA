@@ -25,6 +25,27 @@ public class LongestSubArrayWithEqualOneAndZero {
         return res;
     }
 
+    static int longestNaiveGeeks(int[] arr){
+        int n=arr.length;
+        int res=0;
+        for (int i=0;i<n;i++){
+            int c0=0;
+            int c1=0;
+            for (int j = i; j < n; j++) {
+                if (arr[j]==0){
+                    c0++;
+                }
+                if (arr[j]==1){
+                   c1++;
+                }
+                if (c0==c1){
+                    res=Math.max(res,c0+c1);
+                }
+            }
+        }
+        return res;
+    }
+
     static int longestMediumEfficient(int[] arr){
         int n=arr.length;
         int res=0;
@@ -77,6 +98,9 @@ public class LongestSubArrayWithEqualOneAndZero {
         System.out.println(res);
 
         res=longestSubArrayWithSameZeroAndOne(arr);
+        System.out.println(res);
+
+        res=longestNaiveGeeks(arr);
         System.out.println(res);
     }
 }
