@@ -2,7 +2,6 @@ package com.samit.hashing;
 
 public class LongestCommonSubArrayWithGivenSum {
 
-
     public static void main(String[] args) {
         int[] arr1={0,1,0,0,0,0};
         int[] arr2={1,0,1,0,0,1};
