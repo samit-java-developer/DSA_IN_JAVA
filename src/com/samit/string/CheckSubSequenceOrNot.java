@@ -1,5 +1,9 @@
 package com.samit.string;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
 public class CheckSubSequenceOrNot {
 
     public static void main(String[] args) {
@@ -11,6 +15,15 @@ public class CheckSubSequenceOrNot {
         System.out.println(res);
         res=recursive(s1,s2,s1.length(),s2.length());
         System.out.println(res);
+
+        List<String> allStrings=allSubSequence("",s1,0);
+        System.out.println(allStrings);
+        Optional<String> optionalS=allStrings.stream().filter(x->x.equalsIgnoreCase(s2)).findFirst();
+        if (optionalS.isPresent()){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
     }
 
     static boolean check(String s1, String s2){
@@ -59,5 +72,19 @@ public class CheckSubSequenceOrNot {
         }else{
             return recursive(s1,s2,m-1,n);
         }
+    }
+
+    static List<String> allSubSequence(String res,String input,int i){
+        List<String> allSub=new ArrayList<>();
+        if (i==input.length()){
+            allSub.add(res);
+            return allSub;
+        }
+        char ch=input.charAt(i);
+        List<String> left=allSubSequence(res,input,i+1);
+        List<String> right=allSubSequence(res+ch,input,i+1);
+        allSub.addAll(left);
+        allSub.addAll(right);
+        return allSub;
     }
 }
