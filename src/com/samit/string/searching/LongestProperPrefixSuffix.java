@@ -10,6 +10,7 @@ public class LongestProperPrefixSuffix {
             for (int i=0;i<len;i++){
                 if (input.charAt(i)!=input.charAt(n-len+i)){
                     flag=false;
+                    break;
                 }
             }
             if (flag){
