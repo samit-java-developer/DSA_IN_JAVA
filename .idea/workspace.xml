@@ -1,12 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager">
-    <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.KMPAlgorithm" />
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="written code of lexicographic code">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/SimpleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/SimpleTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "samit-java-developer"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/samit-java-developer/DSA_IN_JAVA.git",
+    "accountId": "f29c2163-fd9d-4168-89d7-8179d5c24a57"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="38R2hko53V7aJToeMiki7ie4BO0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.KMPAlgorithm.executor": "Run",
+    "Application.Main (1).executor": "Debug",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SimpleLinkedList.executor": "Run",
+    "Application.SimpleTraversal (1).executor": "Run",
+    "Application.SimpleTraversal.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/Desktop/DSA_IN_JAVA"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main (5)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.string.searching.*" />
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+      <module name="DSA_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -16,8 +131,35 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KMPAlgorithm" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="" />
+      <created>1768748193482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1768748193482</updated>
+    </task>
+    <task id="LOCAL-00001" summary="written code of lexicographic code">
+      <option name="closed" value="true" />
+      <created>1768748275130</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768748275130</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="written code of lexicographic code" />
+    <option name="LAST_COMMIT_MESSAGE" value="written code of lexicographic code" />
   </component>
 </project>
