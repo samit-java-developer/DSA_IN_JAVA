@@ -1,4 +1,4 @@
-package com.samit;
+package com.samit.linkedlist;
 
 class DoublyNode {
     int data;
@@ -59,7 +59,7 @@ public class DoublyLinkedList {
 
     void deleteAtBegin(){
         DoublyNode temp=head;
-        if (temp.next==null){
+        if (temp==null || temp.next==null){
             head=null;
             return;
         }
@@ -67,6 +67,19 @@ public class DoublyLinkedList {
         temp.next=null;
         next.prev=null;
         head=next;
+    }
+
+    void deleteAtLast(){
+        DoublyNode temp=head;
+        if (temp==null || temp.next==null){
+            head=null;
+            return;
+        }
+        while (temp.next.next!=null){
+            temp=temp.next;
+        }
+        temp.next.prev=null;
+        temp.next=null;
     }
     public static void main(String[] args) {
         DoublyLinkedList list=new DoublyLinkedList();
@@ -79,9 +92,7 @@ public class DoublyLinkedList {
         list.printDoublyLinkedList();
         list.deleteAtBegin();
         list.printDoublyLinkedList();
-        list.deleteAtBegin();
-        list.printDoublyLinkedList();
-        list.deleteAtBegin();
+        list.deleteAtLast();
         list.printDoublyLinkedList();
     }
 }
