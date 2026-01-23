@@ -56,6 +56,18 @@ public class DoublyLinkedList {
         }
         System.out.println();
     }
+
+    void deleteAtBegin(){
+        DoublyNode temp=head;
+        if (temp.next==null){
+            head=null;
+            return;
+        }
+        DoublyNode next=temp.next;
+        temp.next=null;
+        next.prev=null;
+        head=next;
+    }
     public static void main(String[] args) {
         DoublyLinkedList list=new DoublyLinkedList();
         list.insertAtBegin(1);
@@ -64,6 +76,12 @@ public class DoublyLinkedList {
         list.insertAtEnd(4);
         list.printDoublyLinkedList();
         list.reverseDoubly();
+        list.printDoublyLinkedList();
+        list.deleteAtBegin();
+        list.printDoublyLinkedList();
+        list.deleteAtBegin();
+        list.printDoublyLinkedList();
+        list.deleteAtBegin();
         list.printDoublyLinkedList();
     }
 }
