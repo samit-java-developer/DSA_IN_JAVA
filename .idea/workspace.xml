@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="updated code of doubly linked list in java">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CircularLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/DoublyLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/DoublyNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CircularLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769153965559</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated code of doubly linked list in java">
+      <option name="closed" value="true" />
+      <created>1769174012941</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769174012941</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

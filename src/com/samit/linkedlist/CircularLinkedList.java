@@ -66,8 +66,31 @@ public class CircularLinkedList {
         }
         newNode.next=head.next;
         head.next=newNode;
-        int temp=head.data;
-
+        int value=head.data;
+        head.data=newNode.data;
+        newNode.data=value;
+        head=newNode;
+    }
+    void deleteAtBegin(){
+        CircularNode temp=head;
+        if (head==null || head.next==head){
+            head=null;
+            return;
+        }
+        while (temp.next!=head){
+            temp=temp.next;
+        }
+        temp.next=head.next;
+        head=head.next;
+    }
+    void deleteAtBeginEfficient(){
+        CircularNode temp=head;
+        if (head==null || head.next==head) {
+            head = null;
+            return;
+        }
+        head.data=head.next.data;
+        head.next=head.next.next;
     }
 
     void printCircularList(){
@@ -96,6 +119,12 @@ public class CircularLinkedList {
         list.insertAtBeginEfficient(3);
         list.printCircularList2();
         list.insertAtEnd(4);
+        list.printCircularList2();
+        list.insertAtEndEfficient(6);
+        list.printCircularList();
+        list.deleteAtBegin();
+        list.printCircularList2();
+        list.deleteAtBeginEfficient();
         list.printCircularList2();
     }
 }
