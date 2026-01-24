@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="updated code of doubly linked list in java">
+    <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="updated code of doubly linked with all method (insert, delete) in java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     "Application.Main (2).executor": "Run",
     "Application.Main (3).executor": "Run",
     "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Run",
     "Application.Main.executor": "Run",
     "Application.SimpleLinkedList.executor": "Run",
     "Application.SimpleTraversal (1).executor": "Run",
@@ -69,9 +71,9 @@
       <recent name="C:\Users\HP\OneDrive\Desktop\DSA_IN_JAVA\src\com\samit\linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CircularLinkedList">
-    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.CircularLinkedList" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.DoublyLinkedList" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.*" />
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CircularLinkedList" />
-        <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769174012941</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated code of doubly linked with all method (insert, delete) in java">
+      <option name="closed" value="true" />
+      <created>1769176014096</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769176014096</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -201,6 +211,7 @@
     <MESSAGE value="written code of linked list in java" />
     <MESSAGE value="written code of doubly linked list in java" />
     <MESSAGE value="updated code of doubly linked list in java" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code of doubly linked list in java" />
+    <MESSAGE value="updated code of doubly linked with all method (insert, delete) in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code of doubly linked with all method (insert, delete) in java" />
   </component>
 </project>

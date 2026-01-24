@@ -66,6 +66,78 @@ class LinkedList {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
+        System.out.println();
+    }
+
+    public void printMidOfList(){
+        NodeNew slow = head;
+        NodeNew fast = head;
+        while (fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast=fast.next.next;
+        }
+        System.out.println(slow.data+" ");
+    }
+
+    void printNthNodeFromEnd(int n){
+        NodeNew first = head;
+        NodeNew second = head;
+        for (int i=0;i<n;i++){
+            if (first==null) return;
+            first=first.next;
+        }
+        while (first!=null){
+            first=first.next;
+            second=second.next;
+        }
+        System.out.println(second.data+" ");
+    }
+
+    void reverserList(){
+        NodeNew next=null;
+        NodeNew curr=head;
+        NodeNew prev=null;
+        while (curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        head=prev;
+    }
+    NodeNew reverserListRecursive(NodeNew prev,NodeNew curr){
+        if (curr==null){
+            return prev;
+        }
+        NodeNew res=reverserListRecursive(curr,curr.next);
+        curr.next=prev;
+        return res;
+    }
+
+    NodeNew recRevL(NodeNew head){
+        if(head==null||head.next==null)return head;
+        NodeNew rest_head=recRevL(head.next);
+        NodeNew rest_tail=head.next;
+        rest_tail.next=head;
+        head.next=null;
+        return rest_head;
+    }
+
+    void removeDuplicateFromTheSortedList(){
+        NodeNew curr=head;
+        NodeNew next=curr.next;
+        while (curr!=null && next!=null){
+            if (curr.data==next.data){
+                curr.next=next.next;
+                next=curr.next;
+            }else{
+                curr=curr.next;
+                next=next.next;
+            }
+        }
+    }
+    void clear(){
+        head=null;
     }
 }
 
@@ -90,6 +162,25 @@ public class Main {
         System.out.print("Finding the position of element... ");
         pos=list.searchRecursive(10,list.head);
         System.out.println(pos);
+        list.printList();
+        list.printMidOfList();
+        list.printNthNodeFromEnd(3);
+        list.reverserList();
+        list.printList();
+        list.head=list.reverserListRecursive(null,list.head);
+        list.printList();
+        list.head=list.recRevL(list.head);
+        list.printList();
+        list.clear();
+        list.printList();
+        list.insertAtEnd(20);
+//        list.insertAtEnd(20);
+//        list.insertAtEnd(20);
+//        list.insertAtEnd(30);
+//        list.insertAtEnd(30);
+//        list.insertAtEnd(30);
+        list.printList();
+        list.removeDuplicateFromTheSortedList();
         list.printList();
     }
 }
