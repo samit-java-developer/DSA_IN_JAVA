@@ -169,36 +169,33 @@ class LinkedList {
         }
     }
 
-     void segregateEvenAndOddEfficient(){
-        NodeNew es=null;
-        NodeNew ee=null;
-        NodeNew os=null;
-        NodeNew oe=null;
-        NodeNew curr=head;
-        while (curr!=null){
-            if (curr.data%2==0){
-                if (es==null){
-                    es=new NodeNew(curr.data);
-                    ee=es;
-                }else{
-                    NodeNew temp=new NodeNew(curr.data);
-                    ee.next=temp;
-                    ee=temp;
+    void segregateEvenAndOddEfficient() {
+        NodeNew es = null;
+        NodeNew ee = null;
+        NodeNew os = null;
+        NodeNew oe = null;
+        NodeNew curr = head;
+        while (curr != null) {
+            if (curr.data % 2 == 0) {
+                if (es == null) {
+                    es = ee=curr;
+                } else {
+                    ee.next = curr;
+                    ee = curr;
                 }
-            }else{
-                if (os==null){
-                    os=new NodeNew(curr.data);
-                    oe=os;
-                }else{
-                    NodeNew temp=new NodeNew(curr.data);
-                    oe.next=temp;
-                    oe=temp;
+            } else {
+                if (os == null) {
+                    os =oe= curr;
+                } else {
+                    oe.next = curr;
+                    oe = curr;
                 }
             }
-            curr=curr.next;
+            curr = curr.next;
         }
-        head=es;
-        ee.next=os;
+        head = es;
+        oe.next = null;
+        ee.next = os;
     }
 }
 
