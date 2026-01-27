@@ -139,6 +139,39 @@ class LinkedList {
     void clear(){
         head=null;
     }
+    // not working code......
+    void segregateEvenAndOdd(){
+        NodeNew curr=head;
+        NodeNew last=null;
+        while (curr.next!=null){
+            curr=curr.next;
+        }
+        last=curr;
+        curr=head;
+        NodeNew prev=null;
+        NodeNew temp=null;
+        while (curr!=null){
+            if ((curr.data%2)!=0){
+                last.next=curr;
+                last=curr;
+                if (prev!=null){
+                    temp=curr.next;
+                    prev.next=curr.next;
+                    curr=temp;
+                }else{
+                    head=head.next;
+                    curr=head;
+                }
+            }else{
+                prev=curr;
+                curr=curr.next;
+            }
+        }
+    }
+
+    static void segregateEvenAndOddEfficient(){
+
+    }
 }
 
 public class Main {
@@ -171,7 +204,7 @@ public class Main {
         list.printList();
         list.head=list.recRevL(list.head);
         list.printList();
-        list.clear();
+        //list.clear();
         list.printList();
         list.insertAtEnd(20);
 //        list.insertAtEnd(20);
@@ -181,6 +214,8 @@ public class Main {
 //        list.insertAtEnd(30);
         list.printList();
         list.removeDuplicateFromTheSortedList();
+        list.printList();
+        list.segregateEvenAndOdd();
         list.printList();
     }
 }
