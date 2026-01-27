@@ -169,8 +169,36 @@ class LinkedList {
         }
     }
 
-    static void segregateEvenAndOddEfficient(){
-
+     void segregateEvenAndOddEfficient(){
+        NodeNew es=null;
+        NodeNew ee=null;
+        NodeNew os=null;
+        NodeNew oe=null;
+        NodeNew curr=head;
+        while (curr!=null){
+            if (curr.data%2==0){
+                if (es==null){
+                    es=new NodeNew(curr.data);
+                    ee=es;
+                }else{
+                    NodeNew temp=new NodeNew(curr.data);
+                    ee.next=temp;
+                    ee=temp;
+                }
+            }else{
+                if (os==null){
+                    os=new NodeNew(curr.data);
+                    oe=os;
+                }else{
+                    NodeNew temp=new NodeNew(curr.data);
+                    oe.next=temp;
+                    oe=temp;
+                }
+            }
+            curr=curr.next;
+        }
+        head=es;
+        ee.next=os;
     }
 }
 
@@ -215,7 +243,7 @@ public class Main {
         list.printList();
         list.removeDuplicateFromTheSortedList();
         list.printList();
-        list.segregateEvenAndOdd();
+        list.segregateEvenAndOddEfficient();
         list.printList();
     }
 }
