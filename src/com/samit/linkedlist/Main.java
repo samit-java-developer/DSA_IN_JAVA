@@ -331,5 +331,12 @@ public class Main {
         list.printList();
         list.swapNodesPairWiseEfficient();
         list.printList();
+        list.clear();
+        list.insertAtBegin(1);
+        list.insertAtEnd(2);
+        list.insertAtEnd(2);
+        list.insertAtEnd(1);
+        list.printList();
+        System.out.println(list.checkPalindrome());
     }
 }
