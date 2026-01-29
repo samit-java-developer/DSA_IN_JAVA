@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="updated code of segregate even and odd.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       <recent name="C:\Users\HP\OneDrive\Desktop\DSA_IN_JAVA\src\com\samit\linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
@@ -96,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
@@ -109,7 +111,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
       <module name="DSA_Java" />
       <extension name="coverage">
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769526376013</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated code of segregate even and odd.">
+      <option name="closed" value="true" />
+      <created>1769535900630</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1769535900630</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

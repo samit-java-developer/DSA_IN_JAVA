@@ -1,11 +1,16 @@
 package com.samit.linkedlist;
 
+import java.util.HashMap;
+import java.util.Map;
+
 class NodeNew {
     int data;
     NodeNew next;
+    NodeNew randomRef;
     NodeNew(int data) {
         this.data = data;
         next = null;
+        randomRef=null;
     }
 }
 
@@ -197,6 +202,84 @@ class LinkedList {
         oe.next = null;
         ee.next = os;
     }
+
+    void swapNodesPairWise(){
+        NodeNew curr=head;
+        while (curr!=null && curr.next!=null){
+            int temp=curr.data;
+            curr.data=curr.next.data;
+            curr.next.data=temp;
+            curr=curr.next.next;
+        }
+    }
+
+    void swapNodesPairWiseEfficient() {
+        if (head==null || head.next==null){
+            return;
+        }
+        NodeNew curr = head.next.next;
+        NodeNew prev = head;
+        head=head.next;
+        head.next=prev;
+        NodeNew temp = null;
+        while (curr != null && curr.next!=null) {
+            prev.next = curr.next;
+            prev = curr;
+            temp=curr.next.next;
+            curr.next.next=curr;
+            curr=temp;
+        }
+        prev.next=curr;
+    }
+
+    NodeNew cloneLinkedList(){
+        Map<NodeNew,NodeNew> randomPointingMap=new HashMap<>();
+        NodeNew curr=head;
+        while (curr!=null){
+            randomPointingMap.put(curr,new NodeNew(curr.data));
+            curr=curr.next;
+        }
+        curr=head;
+        while (curr!=null){
+            NodeNew clone=randomPointingMap.get(curr);
+            clone.next=randomPointingMap.get(curr.next);
+            clone.randomRef=randomPointingMap.get(curr.randomRef);
+            curr=curr.next;
+        }
+        return randomPointingMap.get(head);
+    }
+
+    boolean checkPalindrome() {
+        NodeNew curr = head;
+        NodeNew slow = head;
+        NodeNew fast = head;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        NodeNew rev = reverseHalfOfLinkedList(slow.next);
+        while (rev != null) {
+            if (curr.data != rev.data) {
+                return false;
+            }
+            rev = rev.next;
+            curr = curr.next;
+        }
+        return true;
+    }
+
+    NodeNew reverseHalfOfLinkedList(NodeNew head) {
+        NodeNew prev = null;
+        NodeNew curr = head;
+        NodeNew temp = null;
+        while (curr != null) {
+            temp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev;
+    }
 }
 
 public class Main {
@@ -241,6 +324,12 @@ public class Main {
         list.removeDuplicateFromTheSortedList();
         list.printList();
         list.segregateEvenAndOddEfficient();
+        list.printList();
+        list.swapNodesPairWise();
+        list.printList();
+        list.segregateEvenAndOddEfficient();
+        list.printList();
+        list.swapNodesPairWiseEfficient();
         list.printList();
     }
 }
