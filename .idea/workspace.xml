@@ -4,12 +4,219 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="written code palindrome check in linkedlist">
+    <list default="true" id="3a90be6f-b038-467b-bf97-67a8b6a09419" name="Changes" comment="updated code palindrome check in linked-list">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/CheckedForBalancedParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/TestStackViaLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/TestViaArrStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/TwoStacksInOneArr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/NodeNew.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/samit/linkedlist/NodeNew.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/BetBalance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/FrequencyCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/FrequencyInSortedArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/FrequencyInSortedArr2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/LeadersArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/LeadersArr2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/LeftRotateAnArrayByD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/LeftRotateAnArrayByD2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/LeftRotateAnArrayByD3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaxConsecutiveOnes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaxConsecutiveOnes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaxEvenOddNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaxWaterProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumAppearingElementInRange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumCircularSubArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumCirculerSubArraySum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumDifferenceinArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumDifferenceinArr2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumLengthEvenOddSubArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MaximumSubArray2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/RearrangeArrayAlterNatively.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/RemoveDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/ReverseArrayInGroups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/RotateArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/SecondLargest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/SecondLargestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/SequenceNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/SlidingWindowTechnique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/SmallestMissingPositive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/StockByAndSell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/StockByAndSell2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/TrappingRainWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/TrappingRainWater2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/LeadersInArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MaxDifferenceInArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MaxEvenOddSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MaxIndexDiff.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MaximumCircularSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MaximumSubArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/MoveZerosToEnd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/PrintFreq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/SecondLargestElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/StockBuyAndSell.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/array/test/TrappingWater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/CheckKthBitIsSetOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/CountSetBits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/CountSetBitsEfficient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/CountSetBitsTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/OneOddOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/PowerOfTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/bitmagic/TwoOddOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/builder/BuilderPattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/builder/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/builder/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/factory/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/factory/FactoryPatternEx.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/factory/Shape.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/factory/ShapeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/factory/Square.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/designpattern/singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/CountDistinctElementsInEveryWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/HashingOpenAddressing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/HashingWithChaining.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/LongestCommonSubArrayWithGivenSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/LongestSubArraySum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/LongestSubArrayWithEqualOneAndZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/LongestSubSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/MandatoryMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/MorethannBykOccurences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/SubArrayWithGivenSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/hashing/SubArrayWithZeroSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/Java8Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/JavaQuestionRmp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/chatgpt/array/ArrayRelated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/chatgpt/array/FindDuplicateElemntsInList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/chatgpt/stream/FirstNonRepeatingCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/cheatseatImpl/ComparatorInterFace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/java8/cheatseatImpl/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CheckLoopInLinkedList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CheckLoopInLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/CircularNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/DoublyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/DoublyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/NodeNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SimpleLinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SimpleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SimpleTraversal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SinglyLinkedList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SinglyLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SinglyLinkedListExample$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/linkedlist/SinglyLinkedListExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/ComputingPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/GCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/Lcm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/MatheMaticsRevised.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/ModInverse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/PrimeFactorization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/PrimeNo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/PrintDivisors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/PrintPrimes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/QuadraticEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/SieveOfEratosthenes2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/TrailingZerosInFactorial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/mathematics/practice/PrimeFactors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/BankAccount2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/BankAccount3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/BankAccountLockMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/BankAccountLockMain2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/Consumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/Counter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/DaemonThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/Producer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ProducerConsumer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ReadWriteCounter$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ReadWriteCounter$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ReadWriteCounter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ReentrantLockExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/SharedResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/SynchronisationCountStatic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/SynchronisationCounterViaClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/SynchronizationViaLock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ThreadFirstWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ThreadLifeCycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/ThreadSecondWay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/World.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/multithreading/World1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Palindrome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Permute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/PhoneDigit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/PhoneDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/ReverseExpo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/RopeCuttingProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Solution1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/SolutionName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/SubSetSumProblem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/SubSetsOfString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/SumOfDigits.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/recursion/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/AllocateMinimumPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/CountOnesInSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/FirstAndLastOccurrence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/FirstRepeat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/FloorInSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/MedianOfTwoSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/MinimumNumberInSortedRotated$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/MinimumNumberInSortedRotated.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/MissingNumber$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/MissingNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/SearchInAnInfiniteSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/SearchInSortedRotatedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/SquareRoot$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/SquareRoot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/coding/FindTwoDuplicateInN2Arr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/searching/coding/SearchMinimum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/BucketSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/CountInversionInArr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/CountingSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/CycleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/HeapSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/IntersectionOfTwoSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/MeetingMaximumGuest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/MergeOverLappingIntervals$Interval.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/MergeOverLappingIntervals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/PartitionQuickSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/RadixSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/SortAnArrayWithThreeTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/SortAnArrayWithTwoTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/UnionOfTwoSortedArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/sorting/practice/CountInversion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/Anagram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/AnagramSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/CheckSubSequenceOrNot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/FrequenciesOfCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/LeftMostNonRepeatCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/LeftMostRepeatCharacter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/LexicoGraphic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/ReverseWordsInString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/searching/KMPAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/searching/LongestProperPrefixSuffix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/searching/NaivePattern.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/string/searching/RobinKarp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/MultiClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/MultiThreadedServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/MultiThreadedServerThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/SimpleClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/samit/webserver/singlethreaded/SingleThreadedServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/CheckLoopInLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CheckLoopInLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +245,9 @@
     &quot;accountId&quot;: &quot;f29c2163-fd9d-4168-89d7-8179d5c24a57&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/com/samit/linkedlist/Main.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -46,35 +256,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CircularLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoublyLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KMPAlgorithm.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (3).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (4).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main (5).executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleLinkedList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleTraversal (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.SimpleTraversal.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/OneDrive/Desktop/DSA_IN_JAVA/src/com/samit/linkedlist&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckLoopInLinkedList.executor": "Run",
+    "Application.CheckedForBalancedParenthesis.executor": "Run",
+    "Application.CircularLinkedList.executor": "Run",
+    "Application.DoublyLinkedList.executor": "Run",
+    "Application.KMPAlgorithm.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main (3).executor": "Run",
+    "Application.Main (4).executor": "Run",
+    "Application.Main (5).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.SimpleLinkedList.executor": "Run",
+    "Application.SimpleTraversal (1).executor": "Run",
+    "Application.SimpleTraversal.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.TestStackViaLinked.executor": "Run",
+    "Application.TwoStacksInOneArr.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/HP/OneDrive/Desktop/DSA_IN_JAVA"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\HP\OneDrive\Desktop\DSA_IN_JAVA\src\com\samit\linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+  <component name="RunManager" selected="Application.TwoStacksInOneArr">
+    <configuration name="CheckLoopInLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.CheckLoopInLinkedList" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
@@ -86,12 +301,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+    <configuration name="CheckedForBalancedParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.CheckedForBalancedParenthesis" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +314,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.Test" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +327,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+    <configuration name="TestStackViaLinked" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.TestStackViaLinked" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +340,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.Main" />
+    <configuration name="TwoStacksInOneArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.TwoStacksInOneArr" />
       <module name="DSA_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TwoStacksInOneArr" />
+        <item itemvalue="Application.CheckedForBalancedParenthesis" />
+        <item itemvalue="Application.TestStackViaLinked" />
+        <item itemvalue="Application.CheckLoopInLinkedList" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769710242400</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated code palindrome check in linked-list">
+      <option name="closed" value="true" />
+      <created>1769710935827</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769710935827</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -257,6 +480,7 @@
     <MESSAGE value="wrote code of segregate even and odd." />
     <MESSAGE value="updated code of segregate even and odd." />
     <MESSAGE value="written code palindrome check in linkedlist" />
-    <option name="LAST_COMMIT_MESSAGE" value="written code palindrome check in linkedlist" />
+    <MESSAGE value="updated code palindrome check in linked-list" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code palindrome check in linked-list" />
   </component>
 </project>

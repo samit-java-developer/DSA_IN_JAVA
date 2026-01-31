@@ -1,6 +1,5 @@
 package com.samit.linkedlist;
 
-
 public class CheckLoopInLinkedList {
 
 	private ListNode<Integer> head;
