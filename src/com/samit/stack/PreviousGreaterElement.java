@@ -15,7 +15,7 @@ public class PreviousGreaterElement {
         stack.push(arr[0]);
         System.out.print(-1+" ");
         for (int i=1;i<arr.length;i++){
-            while (!stack.isEmpty() && arr[i]>=stack.peek()){
+            while (!stack.isEmpty() && stack.peek()<=arr[i]){
                 stack.pop();
             }
             if (stack.isEmpty()){
@@ -32,7 +32,7 @@ public class PreviousGreaterElement {
         stack.push(arr[0]);
         System.out.print(-1+" ");
         for (int i=1;i<arr.length;i++){
-            while (!stack.isEmpty() && arr[i]<=stack.peek()){
+            while (!stack.isEmpty() && stack.peek()>=arr[i]){
                 stack.pop();
             }
             if (stack.isEmpty()){
