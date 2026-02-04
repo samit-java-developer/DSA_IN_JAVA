@@ -1,7 +1,6 @@
 package com.samit.stack;
 
 import java.util.ArrayDeque;
-import java.util.Arrays;
 
 public class LargestRectangularAreaInHistogram {
 
