@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="updated code">
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of largest rectangular">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/LargestRectangleWithAllOnes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/stack/LargestRectangularAreaInHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/stack/LargestRectangularAreaInHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/stack/LargestRectangularAreaInHistogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/stack/LargestRectangularAreaInHistogram.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -44,17 +58,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.LargestRectangularAreaInHistogram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreviousGreaterElement.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LargestRectangleWithAllOnes.executor": "Run",
+    "Application.LargestRectangularAreaInHistogram.executor": "Run",
+    "Application.PreviousGreaterElement.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Application.LargestRectangularAreaInHistogram">
+}]]></component>
+  <component name="RunManager" selected="Application.LargestRectangleWithAllOnes">
+    <configuration name="LargestRectangleWithAllOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.LargestRectangleWithAllOnes" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LargestRectangularAreaInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.stack.LargestRectangularAreaInHistogram" />
       <module name="DSA_IN_JAVA" />
@@ -83,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestRectangleWithAllOnes" />
         <item itemvalue="Application.LargestRectangularAreaInHistogram" />
         <item itemvalue="Application.PreviousGreaterElement" />
       </list>
@@ -112,11 +141,20 @@
       <option name="project" value="LOCAL" />
       <updated>1770059742401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="written code of largest rectangular">
+      <option name="closed" value="true" />
+      <created>1770398376729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770398376729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated code" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated code" />
+    <MESSAGE value="written code of largest rectangular" />
+    <option name="LAST_COMMIT_MESSAGE" value="written code of largest rectangular" />
   </component>
 </project>
