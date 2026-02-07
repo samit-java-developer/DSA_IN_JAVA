@@ -8,6 +8,7 @@ class StackNew{
     int top2;
     StackNew(int cap){
         this.cap=cap;
+
         this.top=-1;
         this.top2=-1;
         this.arr=new int[this.cap];
