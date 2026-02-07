@@ -43,6 +43,53 @@ class StackNew{
         return this.auxSpace[this.top2];
     }
 }
+
+class Stack2{
+    int top;
+    int cap;
+    int[] arr;
+    int min;
+    Stack2(int cap){
+        this.cap=cap;
+        this.top=-1;
+        this.arr=new int[this.cap];
+        this.min=0;
+    }
+    void push(int x){
+        if (top+1==this.cap){
+            System.out.println("not able to push now...");
+            return;
+        }
+        if (this.top==-1){
+            this.arr[++top]=x;
+            this.min=x;
+        }else if (x<=min){
+            this.arr[++top]=x-min;
+            min=x;
+        }else{
+            this.arr[++top]=x;
+        }
+    }
+
+    int pop(){
+        if (this.top==-1){
+            System.out.println("not able to pop now...");
+            return 0;
+        }
+        int res;
+        int t=this.arr[top--];
+        if (t<=0){
+            res=min;
+            min=min-t;
+            return res;
+        }else {
+            return t;
+        }
+    }
+    int getMin(){
+        return this.min;
+    }
+}
 public class GetMinimumInStack {
     public static void main(String[] args) {
         StackNew stackNew=new StackNew(20);
@@ -61,5 +108,24 @@ public class GetMinimumInStack {
         stackNew.pop();
         stackNew.push(1);
         System.out.println( stackNew.getMin());
+
+        System.out.println("--------------------------");
+
+        Stack2 sta=new Stack2(20);
+        sta.push(5);
+        sta.push(10);
+        sta.push(20);
+        sta.push(2);
+        System.out.println( sta.getMin());
+        sta.push(6);
+        sta.push(4);
+        System.out.println( sta.getMin());
+        sta.pop();
+        sta.pop();
+        sta.push(2);
+        System.out.println( sta.getMin());
+        sta.pop();
+        sta.push(1);
+        System.out.println( sta.getMin());
     }
 }

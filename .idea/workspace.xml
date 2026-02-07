@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of largest rectangular">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/GetMinimumInStack.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of get minimum in o(1) time in stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/stack/GetMinimumInStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/stack/GetMinimumInStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +59,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.GetMinimumInStack (1).executor": "Run",
+    "Application.GetMinimumInStack.executor": "Run",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
@@ -192,12 +194,30 @@
       <option name="project" value="LOCAL" />
       <updated>1770402027956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="written code of get minimum in o(1) time">
+      <option name="closed" value="true" />
+      <created>1770456581494</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1770456581494</updated>
+    </task>
+    <task id="LOCAL-00007" summary="written code of get minimum in o(1) time in stack">
+      <option name="closed" value="true" />
+      <created>1770456599542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770456599542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated code" />
     <MESSAGE value="written code of largest rectangular" />
-    <option name="LAST_COMMIT_MESSAGE" value="written code of largest rectangular" />
+    <MESSAGE value="written code of get minimum in o(1) time" />
+    <MESSAGE value="written code of get minimum in o(1) time in stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="written code of get minimum in o(1) time in stack" />
   </component>
 </project>
