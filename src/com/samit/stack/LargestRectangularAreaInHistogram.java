@@ -1,6 +1,7 @@
 package com.samit.stack;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 
 public class LargestRectangularAreaInHistogram {
 
@@ -9,6 +10,8 @@ public class LargestRectangularAreaInHistogram {
         System.out.println(getMaxArea(arr));
         System.out.println(getMaxAreaEfficient(arr));
         System.out.println(getMaxAreaMoreEfficient(arr));
+        ArrayList<Integer> kkkk=new ArrayList<>();
+
     }
 
     static int getMaxArea(int[] arr) {
