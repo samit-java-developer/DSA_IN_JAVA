@@ -72,35 +72,35 @@ public class LongestSubArrayWithEqualOneAndZero {
         return res;
     }
 
-    static int longestSubArrayWithSameZeroAndOne(int[] arr){
-        int n=arr.length;
-        int prefix_sum=0;
-        Map<Integer,Integer> map=new HashMap<>();
-        int res=0;
-        map.put(0,-1);
-        for (int i=0;i<n;i++){
-            prefix_sum+=arr[i]==0?-1:1;
-            if (map.containsKey(prefix_sum)){
-                res=Math.max(res,(i-map.get(prefix_sum)));
-            }else{
-                map.put(prefix_sum,i);
+    static int longestSubArrayWithSameZeroAndOne(int[] arr) {
+        int n = arr.length;
+        int prefix_sum = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        int res = 0;
+        map.put(0, -1);
+        for (int i = 0; i < n; i++) {
+            prefix_sum += arr[i] == 0 ? -1 : 1;
+            if (map.containsKey(prefix_sum)) {
+                res = Math.max(res, (i - map.get(prefix_sum)));
+            } else {
+                map.put(prefix_sum, i);
             }
         }
         return res;
     }
 
     public static void main(String[] args) {
-        int[] arr={0,0,1,1,1,1,1,0};
-        int res=longest(arr);
+        int[] arr = {0, 0, 1, 1, 1, 1, 1, 0};
+        int res = longest(arr);
         System.out.println(res);
 
-        res=longestMediumEfficient(arr);
+        res = longestMediumEfficient(arr);
         System.out.println(res);
 
-        res=longestSubArrayWithSameZeroAndOne(arr);
+        res = longestSubArrayWithSameZeroAndOne(arr);
         System.out.println(res);
 
-        res=longestNaiveGeeks(arr);
+        res = longestNaiveGeeks(arr);
         System.out.println(res);
     }
 }
