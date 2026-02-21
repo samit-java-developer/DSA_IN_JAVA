@@ -12,6 +12,8 @@ public class CountDistinctElementsInEveryWindow {
         int[] arr={10,20,20,10,30,40,10};
         int k=4;
         myApproach(arr,k);
+        System.out.println();
+        countDistinct(arr,k);
     }
     static void myApproach(int[] arr,int k){
         int n=arr.length;
@@ -32,5 +34,22 @@ public class CountDistinctElementsInEveryWindow {
         //Arrays.stream(arr).boxed().collect(Collectors.toMap(Function.identity(),v->1, Integer::sum));
 
         //Arrays.stream(arr).boxed().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+    }
+
+    static void countDistinct(int[] arr,int k){
+        int n=arr.length;
+        Map<Integer,Integer> maps=new HashMap<>();
+        for (int i=0;i<k;i++){
+            maps.put(arr[i],maps.getOrDefault(arr[i],0)+1);
+        }
+        System.out.print(maps.size()+" ");
+        for (int i=k;i<n;i++){
+            maps.put(arr[i],maps.getOrDefault(arr[i],0)+1);
+            maps.put(arr[i-k],maps.get(arr[i])-1);
+            if (maps.get(arr[i-k])==0){
+                maps.remove(arr[i-k]);
+            }
+            System.out.print(maps.size()+" ");
+        }
     }
 }

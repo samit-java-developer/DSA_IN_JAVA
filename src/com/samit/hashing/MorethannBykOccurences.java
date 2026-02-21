@@ -13,6 +13,8 @@ public class MorethannBykOccurences {
         int k=3;
         long start=System.currentTimeMillis();
         printMoreThanNByK(arr,k);
+        System.out.println();
+        printMoreThanNByK(arr,k);
         long end=System.currentTimeMillis();
         System.out.println(end-start);
         start=System.currentTimeMillis();
@@ -40,6 +42,23 @@ public class MorethannBykOccurences {
             }
             i++;
             count=1;
+        }
+    }
+
+    static void printViaNaive(int[] arr,int k){
+        Arrays.sort(arr);
+        int i=1,count=1;
+        int n=arr.length;
+        while (i<n){
+            while(i<n && arr[i]==arr[i-1]){
+                count++;
+                i++;
+            }
+            if (count>n/k){
+                System.out.print(arr[i-1]+" ");
+            }
+            count=1;
+            i++;
         }
     }
 

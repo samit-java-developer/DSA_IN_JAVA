@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written efficient code of LargestRectangular Area">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/array/LongestSubArrayWithEqualZeroOne.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="revised some pattern of array and hashing.">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/hashing/LinearProbing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountingSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/RadixSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/stack/LargestRectangularAreaInHistogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/stack/LargestRectangularAreaInHistogram.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/hashing/LongestSubArrayWithEqualOneAndZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/hashing/LongestSubArrayWithEqualOneAndZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/hashing/LongestSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/hashing/LongestSubSequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/CountingSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/RadixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/CountDistinctElementsInEveryWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/CountDistinctElementsInEveryWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/LongestSubSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/LongestSubSequence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/MorethannBykOccurences.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/MorethannBykOccurences.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/hashing/CountDistinctElementsInEveryWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/hashing/CountDistinctElementsInEveryWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +64,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountDistinctElementsInEveryWindow.executor": "Run",
     "Application.CountingSort.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
+    "Application.HashingWithChaining.executor": "Run",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
+    "Application.LinearProbing.executor": "Run",
     "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
     "Application.LongestSubSequence.executor": "Run",
+    "Application.MorethannBykOccurences.executor": "Debug",
     "Application.PreviousGreaterElement.executor": "Run",
     "Application.RadixSort.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -81,13 +83,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LongestSubSequence">
-    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.CountingSort" />
+  <component name="RunManager" selected="Application.LinearProbing">
+    <configuration name="CountDistinctElementsInEveryWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.CountDistinctElementsInEveryWindow" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.*" />
+          <option name="PATTERN" value="com.samit.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMinimumInStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.GetMinimumInStack" />
+    <configuration name="HashingWithChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.HashingWithChaining" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.stack.*" />
+          <option name="PATTERN" value="com.samit.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubArrayWithEqualZeroOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.array.LongestSubArrayWithEqualZeroOne" />
+    <configuration name="LinearProbing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.LinearProbing" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.array.*" />
+          <option name="PATTERN" value="com.samit.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.RadixSort" />
+    <configuration name="MorethannBykOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.MorethannBykOccurences" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.*" />
+          <option name="PATTERN" value="com.samit.hashing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearProbing" />
+        <item itemvalue="Application.HashingWithChaining" />
+        <item itemvalue="Application.MorethannBykOccurences" />
+        <item itemvalue="Application.CountDistinctElementsInEveryWindow" />
         <item itemvalue="Application.LongestSubSequence" />
-        <item itemvalue="Application.LongestSubArrayWithEqualZeroOne" />
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.CountingSort" />
-        <item itemvalue="Application.GetMinimumInStack" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1770698908340</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="revised some pattern of array and hashing.">
+      <option name="closed" value="true" />
+      <created>1771444950323</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1771444950323</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -247,6 +257,32 @@
     <MESSAGE value="written code of get minimum in o(1) time in stack" />
     <MESSAGE value="written code of get minimum in o(1) time in stack with no space" />
     <MESSAGE value="written efficient code of LargestRectangular Area" />
-    <option name="LAST_COMMIT_MESSAGE" value="written efficient code of LargestRectangular Area" />
+    <MESSAGE value="revised some pattern of array and hashing." />
+    <option name="LAST_COMMIT_MESSAGE" value="revised some pattern of array and hashing." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/hashing/LinearProbing.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
+          <line>29</line>
+          <properties class="com.samit.hashing.MorethannBykOccurences" method="printMoreThanNByK">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
