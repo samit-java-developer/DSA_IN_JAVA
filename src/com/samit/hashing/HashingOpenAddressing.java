@@ -14,9 +14,11 @@ public class HashingOpenAddressing implements MandatoryMethod{
         this.cap = c;
         this.size = 0;
     }
+
     int hash(int key){
         return key%this.cap;
     }
+
     @Override
     public boolean search(int key){
         int h=hash(key);
