@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="implemented our un-ordered map">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/JavaDet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/HashingOpenAddressing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/HashingOpenAddressing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/hashing/UnorderedMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/LongestProperPrefixSuffix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/LongestProperPrefixSuffix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/NaivePattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/NaivePattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/LongestProperPrefixSuffix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/LongestProperPrefixSuffix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/NaivePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/NaivePattern.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +71,17 @@
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
     "Application.HashingWithChaining.executor": "Run",
+    "Application.JavaDet.executor": "Run",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
+    "Application.LongestProperPrefixSuffix.executor": "Run",
     "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
     "Application.LongestSubSequence.executor": "Run",
     "Application.MorethannBykOccurences.executor": "Debug",
+    "Application.NaivePattern.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
-    "Application.RadixSort.executor": "Run",
+    "Application.RadixSort.executor": "Debug",
     "Application.UnorderedMap.executor": "Run",
     "Application.UnorderedMapCustom.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -80,13 +90,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UnorderedMap">
-    <configuration name="HashingWithChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.HashingWithChaining" />
+  <component name="RunManager" selected="Application.RadixSort">
+    <configuration name="JavaDet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.JavaDet" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
+          <option name="PATTERN" value="com.samit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearProbing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.LinearProbing" />
+    <configuration name="LongestProperPrefixSuffix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.LongestProperPrefixSuffix" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
+          <option name="PATTERN" value="com.samit.string.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +117,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorethannBykOccurences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.MorethannBykOccurences" />
+    <configuration name="NaivePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.NaivePattern" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
+          <option name="PATTERN" value="com.samit.string.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.RadixSort" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,26 +156,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnorderedMapCustom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.UnorderedMapCustom" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.JavaDet" />
+        <item itemvalue="Application.LongestProperPrefixSuffix" />
+        <item itemvalue="Application.NaivePattern" />
         <item itemvalue="Application.UnorderedMap" />
-        <item itemvalue="Application.UnorderedMapCustom" />
-        <item itemvalue="Application.LinearProbing" />
-        <item itemvalue="Application.HashingWithChaining" />
-        <item itemvalue="Application.MorethannBykOccurences" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1771704088149</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implemented our un-ordered map">
+      <option name="closed" value="true" />
+      <created>1771861943319</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1771861943319</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implemented our un-ordered map">
+      <option name="closed" value="true" />
+      <created>1771862104774</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1771862104774</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implemented our un-ordered map">
+      <option name="closed" value="true" />
+      <created>1771862146534</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1771862146534</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -285,29 +319,9 @@
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/hashing/UnorderedMap.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/NaivePattern.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
