@@ -20,6 +20,22 @@ public class LongestProperPrefixSuffix {
         return 0;
     }
 
+    static int longestProperPrefix(String input,int n){
+        for (int len=n-1; len>0 ; len--) {
+            boolean flag=false;
+            for (int i=0;i<len;i++){
+                if (input.charAt(i)!=input.charAt(n-len+i)){
+                    flag=true;
+                    break;
+                }
+            }
+            if (!flag){
+                return len;
+            }
+        }
+        return 0;
+    }
+
     static int longestProperPrefixAndSuffixNaive(String input, int n) {
         for (int len = n - 1; len > 0; len--) {
             boolean flag = true;
@@ -44,6 +60,27 @@ public class LongestProperPrefixSuffix {
         int i=1;
         while (i<n){
             if (input.charAt(len)==input.charAt(i)){
+                lps[i]=len+1;
+                len++;
+                i++;
+            }else{
+                if (len==0){
+                    lps[i]=0;
+                    i++;
+                }else{
+                    len=lps[len-1];
+                }
+            }
+        }
+    }
+
+    static void fillLpsPra(String input,int[] lps){
+        int n=input.length();
+        int i=1;
+        lps[0]=0;
+        int len=0;
+        while (i<n){
+            if (input.charAt(i)==input.charAt(len)){
                 lps[i]=len+1;
                 len++;
                 i++;
