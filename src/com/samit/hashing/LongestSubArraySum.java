@@ -2,6 +2,8 @@ package com.samit.hashing;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 public class LongestSubArraySum {
 
@@ -35,6 +37,7 @@ public class LongestSubArraySum {
     static int findLongestSubArraySum(int[] arr,int sum){
         int n=arr.length;
         Map<Integer,Integer> map=new LinkedHashMap<>();
+        map=map.entrySet().stream().map(e->Map.entry(e.getKey(),e.getValue()-1)).filter(e->e.getValue()>0).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
         int pre_sum=0;
         int res=0;
         for(int i=0;i<n;i++){
