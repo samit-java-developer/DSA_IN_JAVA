@@ -2,9 +2,22 @@ package com.samit.string.searching;
 
 public class RobinKarp {
     public static void main(String[] args) {
-        String text="ABCABCD";
-        String pat="ABCD";
-        RBSearch2(pat,text);
+       // String text="ABCABCD";
+        //String pat="ABCD";
+        //RBSearch2(pat,text);
+
+        String xxxx="1111";
+        int count=0;
+        for (int i=0;i<xxxx.length();i++){
+            for (int j=i+1;j<=xxxx.length();j++){
+                String ccc=xxxx.substring(i,j);
+                System.out.println(ccc);
+                if (ccc.startsWith("1") && ccc.endsWith("1")){
+                    count++;
+                }
+            }
+        }
+        System.out.println(count);
     }
 
     static void RBSearch(String pattern,String text){

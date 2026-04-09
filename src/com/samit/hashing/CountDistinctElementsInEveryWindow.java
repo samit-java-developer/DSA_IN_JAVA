@@ -14,6 +14,10 @@ public class CountDistinctElementsInEveryWindow {
         myApproach(arr,k);
         System.out.println();
         countDistinct(arr,k);
+        System.out.println();
+        countDistinctInWindowSamit(arr,k);
+        System.out.println("------------------");
+        countDistinctInEveryWindowNaive(arr,k);
     }
     static void myApproach(int[] arr,int k){
         int n=arr.length;
@@ -52,4 +56,47 @@ public class CountDistinctElementsInEveryWindow {
             System.out.print(maps.size()+" ");
         }
     }
+
+    static void countDistinctInWindowSamit(int[] arr,int k){
+        Map<Integer,Integer> maps=new HashMap<>();
+        int n=arr.length;
+        for (int i=0;i<k;i++){
+            maps.put(arr[i],maps.getOrDefault(arr[i],0)+1);
+        }
+        System.out.print(maps.size()+" ");
+        for (int i=k;i<n;i++){
+            maps.put(arr[i],maps.getOrDefault(arr[i],0)+1);
+            if (maps.get(arr[i-k])==1){
+                maps.remove(arr[i-k]);
+            }else{
+                maps.put(arr[i-k],maps.get(arr[i-k])-1);
+            }
+            System.out.print(maps.size()+" ");
+        }
+    }
+
+    static int findDistinctNumberInWindow(int[] arr,int start,int end){
+        int count=0;
+        for (int i=start;i<=end;i++){
+            boolean flag=false;
+            for (int j=start;j<i;j++){
+                if (arr[i]==arr[j]){
+                    flag=true;
+                }
+            }
+            if (!flag){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    static void countDistinctInEveryWindowNaive(int[] arr,int k){
+        int n=arr.length;
+        for (int i=0;i<=n-k;i++){
+            int lastW=i+k-1;
+            System.out.print(findDistinctNumberInWindow(arr,i,lastW)+" ");
+        }
+    }
+
 }

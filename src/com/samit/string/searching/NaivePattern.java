@@ -9,7 +9,7 @@ public class NaivePattern {
         System.out.println();
         patternDistinct(text,pat);
         System.out.println();
-        patternDistinctPra(text,pat);
+        patSearchingSamit(text,pat);
     }
     static void patSearching(String text,String pat){
         int n=text.length();
@@ -48,23 +48,36 @@ public class NaivePattern {
         }
     }
 
-    static void patternDistinctPra(String text, String pat){
+    static void patSearchingSamit(String text,String pat){
         int n=text.length();
         int m=pat.length();
         for (int i=0;i<=n-m;){
             int j;
             for (j=0;j<m;j++){
-                if (text.charAt(i+j)!=pat.charAt(j)){
+                if (text.charAt(i + j) != pat.charAt(j)) {
                     break;
                 }
             }
             if (j==m){
-                System.out.println(i+" ");
+                System.out.print(i+" ");
             }
-            if (j==0){
-                i++;
-            }else {
-                i=i+j;
+            if (j==0) i++;
+            else i=i+j;
+        }
+    }
+
+    static void patSearchingDistinctSamit(String text,String pat){
+        int n=text.length();
+        int m=pat.length();
+        for (int i=0;i<=n-m;i++){
+            int j;
+            for (j=0;j<m;j++){
+                if (text.charAt(i + j) != pat.charAt(j)) {
+                    break;
+                }
+            }
+            if (j==m){
+                System.out.print(i+" ");
             }
         }
     }
