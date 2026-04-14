@@ -8,16 +8,13 @@ public class RobinKarp {
 
         String xxxx="1111";
         int count=0;
+        int noOfOne=0;
         for (int i=0;i<xxxx.length();i++){
-            for (int j=i+1;j<=xxxx.length();j++){
-                String ccc=xxxx.substring(i,j);
-                System.out.println(ccc);
-                if (ccc.startsWith("1") && ccc.endsWith("1")){
-                    count++;
-                }
+            if (xxxx.charAt(i)=='1'){
+                noOfOne++;
             }
         }
-        System.out.println(count);
+        System.out.println((noOfOne*(noOfOne-1))/2);
     }
 
     static void RBSearch(String pattern,String text){
