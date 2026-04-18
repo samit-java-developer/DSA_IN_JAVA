@@ -5,16 +5,19 @@ public class RobinKarp {
        // String text="ABCABCD";
         //String pat="ABCD";
         //RBSearch2(pat,text);
-
-        String xxxx="1111";
-        int count=0;
-        int noOfOne=0;
-        for (int i=0;i<xxxx.length();i++){
-            if (xxxx.charAt(i)=='1'){
-                noOfOne++;
+        String s1="abcd";
+        String s2="cdab";
+        int n=s1.length();
+        StringBuilder sb=new StringBuilder(s1);
+        for (int i=0;i<n-1;i++){
+            sb.append(s1.charAt(i));
+            sb.deleteCharAt(0);
+            if (sb.toString().equals(s2)){
+                System.out.println(true);
+                return;
             }
         }
-        System.out.println((noOfOne*(noOfOne-1))/2);
+        System.out.println(true);
     }
 
     static void RBSearch(String pattern,String text){
