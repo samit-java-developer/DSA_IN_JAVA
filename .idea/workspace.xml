@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="updated pattern searching logic">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/string/CaseSpecificSortingOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/string/ReverseWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/string/Solution.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of String">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/string/NthNumberMadeOfPrimeDigits.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +77,7 @@
     "Application.MorethannBykOccurences.executor": "Debug",
     "Application.NByKOccurences.executor": "Run",
     "Application.NaivePattern.executor": "Run",
+    "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
     "Application.RadixSort.executor": "Run",
     "Application.ReverseWords.executor": "Run",
@@ -92,20 +91,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseWords">
-    <configuration name="CountDistinctElementsInEveryWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.CountDistinctElementsInEveryWindow" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NthNumberMadeOfPrimeDigits">
     <configuration name="NByKOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.hashing.NByKOccurrences" />
       <module name="DSA_IN_JAVA" />
@@ -125,6 +111,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.samit.string.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NthNumberMadeOfPrimeDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.string.NthNumberMadeOfPrimeDigits" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NthNumberMadeOfPrimeDigits" />
         <item itemvalue="Application.ReverseWords" />
         <item itemvalue="Application.RobinKarp" />
         <item itemvalue="Application.NaivePattern" />
         <item itemvalue="Application.NByKOccurrences" />
-        <item itemvalue="Application.CountDistinctElementsInEveryWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776492561525</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="solving competitive coding question of String">
+      <option name="closed" value="true" />
+      <created>1776592627827</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1776592627827</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -385,7 +392,8 @@
     <MESSAGE value="implemented anagram search" />
     <MESSAGE value="counting sort updated" />
     <MESSAGE value="updated pattern searching logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated pattern searching logic" />
+    <MESSAGE value="solving competitive coding question of String" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving competitive coding question of String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
