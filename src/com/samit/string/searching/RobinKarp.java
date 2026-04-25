@@ -1,23 +1,95 @@
 package com.samit.string.searching;
 
 public class RobinKarp {
-    public static void main(String[] args) {
-       // String text="ABCABCD";
-        //String pat="ABCD";
-        //RBSearch2(pat,text);
-        String s1="abcd";
-        String s2="cdab";
-        int n=s1.length();
-        StringBuilder sb=new StringBuilder(s1);
-        for (int i=0;i<n-1;i++){
-            sb.append(s1.charAt(i));
-            sb.deleteCharAt(0);
-            if (sb.toString().equals(s2)){
-                System.out.println(true);
-                return;
+
+    static boolean search(String pat, String txt, int q) {
+        int t=0;
+        int p=0;
+        int h=1;
+        int n=txt.length();
+        int m=pat.length();
+        int d=256;
+        for (int i=m-1;i>=0;i--){
+            t=(t+h*txt.charAt(i))%q;
+            p=(p+h*pat.charAt(i))%q;
+            h=(h*d)%q;
+        }
+        for (int i=0;i<=(n-m);i++){
+            if (t==p){
+                int j;
+                for (j=0;j<m;j++){
+                    if (txt.charAt(i+j)!=pat.charAt(j)){
+                        break;
+                    }
+                }
+                if (j==m){
+                    return true;
+                }
+            }
+            if (i<(n-m)){
+                t=((d*t-h*txt.charAt(i))-txt.charAt(i+m))%q;
+                if (t<0){
+                    t=t+q;
+                }
             }
         }
-        System.out.println(true);
+        return false;
+    }
+
+    static void printMatchIndexViaRabinKarp(String text,String pat){
+        int n=text.length();
+        int m=pat.length();
+        int t=0;
+        int p=0;
+        int h=1;
+        int q=101;
+        int d=5;
+        for (int i=m-1;i>=0;i--){
+            t=(t+h*text.charAt(i))%q;
+            p=(p+h*pat.charAt(i))%q;
+            h=(h*d)%q;
+        }
+        for (int i=0;i<=(n-m);i++){
+            if (t==p){
+                int j;
+                for (j=0;j<m;j++){
+                    if (text.charAt(i+j)!=pat.charAt(j)){
+                        break;
+                    }
+                }
+                if (j==m){
+                    System.out.println(i+" ");
+                }
+            }
+            if (i<(n-m)){
+                t=((d*t-text.charAt(i)*h)+text.charAt(i+m))%q;
+                if (t<0){
+                    t=t+q;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+         String text="abcdefgh";
+         String pat="cde";
+         printMatchIndexViaRabinKarp(text,pat);
+         boolean res=search(pat,text,101);
+         System.out.println(res);
+
+//        String s1="abcd";
+//        String s2="cdab";
+//        int n=s1.length();
+//        StringBuilder sb=new StringBuilder(s1);
+//        for (int i=0;i<n-1;i++){
+//            sb.append(s1.charAt(i));
+//            sb.deleteCharAt(0);
+//            if (sb.toString().equals(s2)){
+//                System.out.println(true);
+//                return;
+//            }
+//        }
+//        System.out.println(true);
     }
 
     static void RBSearch(String pattern,String text){

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of String">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/string/NthNumberMadeOfPrimeDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/string/SmallestWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/KMPAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/KMPAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +72,7 @@
     "Application.GetMinimumInStack.executor": "Run",
     "Application.HashingWithChaining.executor": "Run",
     "Application.JavaDet.executor": "Run",
+    "Application.KMPAlgorithm.executor": "Debug",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
@@ -91,13 +96,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NthNumberMadeOfPrimeDigits">
-    <configuration name="NByKOccurrences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.hashing.NByKOccurrences" />
+  <component name="RunManager" selected="Application.KMPAlgorithm">
+    <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.KMPAlgorithm" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.hashing.*" />
+          <option name="PATTERN" value="com.samit.string.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMPAlgorithm" />
+        <item itemvalue="Application.RobinKarp" />
         <item itemvalue="Application.NthNumberMadeOfPrimeDigits" />
         <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.RobinKarp" />
         <item itemvalue="Application.NaivePattern" />
-        <item itemvalue="Application.NByKOccurrences" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776592627827</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="solving competitive coding question of String">
+      <option name="closed" value="true" />
+      <created>1776744910809</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1776744910809</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -415,7 +428,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java</url>
-          <line>62</line>
+          <line>134</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -430,13 +443,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java</url>
-          <line>10</line>
+          <line>82</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/samit/string/ReverseWords.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
@@ -449,7 +487,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java</url>
-          <line>71</line>
+          <line>143</line>
           <properties class="com.samit.string.searching.RobinKarp" method="RBSearch2">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
