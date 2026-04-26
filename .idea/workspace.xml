@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of String">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/string/SmallestWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/LinkedListReverseInGroupsPro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/KMPAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/KMPAlgorithm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/KMPAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/string/searching/RobinKarp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +72,7 @@
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
+    "Application.LinkedListReverseInGroupsPro.executor": "Run",
     "Application.LongestProperPrefixSuffix.executor": "Run",
     "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
     "Application.LongestSubSequence.executor": "Run",
@@ -96,7 +93,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KMPAlgorithm">
+  <component name="RunManager" selected="Application.LinkedListReverseInGroupsPro (2)">
     <configuration name="KMPAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.KMPAlgorithm" />
       <module name="DSA_IN_JAVA" />
@@ -110,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NaivePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.NaivePattern" />
+    <configuration name="LinkedListReverseInGroupsPro (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.string.searching.*" />
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthNumberMadeOfPrimeDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.string.NthNumberMadeOfPrimeDigits" />
+    <configuration name="LinkedListReverseInGroupsPro (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.string.*" />
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.string.ReverseWords" />
+    <configuration name="LinkedListReverseInGroupsPro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.string.*" />
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedListReverseInGroupsPro (2)" />
+        <item itemvalue="Application.LinkedListReverseInGroupsPro (1)" />
+        <item itemvalue="Application.LinkedListReverseInGroupsPro" />
         <item itemvalue="Application.KMPAlgorithm" />
         <item itemvalue="Application.RobinKarp" />
-        <item itemvalue="Application.NthNumberMadeOfPrimeDigits" />
-        <item itemvalue="Application.ReverseWords" />
-        <item itemvalue="Application.NaivePattern" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776744910809</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="solving competitive coding question of String">
+      <option name="closed" value="true" />
+      <created>1777121985756</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1777121985756</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
