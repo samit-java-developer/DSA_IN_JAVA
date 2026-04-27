@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of String">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/LinkedListReverseInGroupsPro.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of linked-list(reverse list in groups..)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +71,8 @@
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
+    "Application.LinkedListReverseInGroupsPro (1).executor": "Run",
+    "Application.LinkedListReverseInGroupsPro (2).executor": "Run",
     "Application.LinkedListReverseInGroupsPro.executor": "Run",
     "Application.LongestProperPrefixSuffix.executor": "Run",
     "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
@@ -393,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777121985756</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="solving competitive coding question of linked-list(reverse list in groups..)">
+      <option name="closed" value="true" />
+      <created>1777204092518</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1777204092518</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -411,7 +420,8 @@
     <MESSAGE value="counting sort updated" />
     <MESSAGE value="updated pattern searching logic" />
     <MESSAGE value="solving competitive coding question of String" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving competitive coding question of String" />
+    <MESSAGE value="solving competitive coding question of linked-list(reverse list in groups..)" />
+    <option name="LAST_COMMIT_MESSAGE" value="solving competitive coding question of linked-list(reverse list in groups..)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
