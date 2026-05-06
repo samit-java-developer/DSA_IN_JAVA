@@ -3,7 +3,6 @@ package com.samit.linkedlist;
 class NodeSam{
     int data;
     NodeSam next;
-
     NodeSam(int data){
         next=null;
         this.data=data;
