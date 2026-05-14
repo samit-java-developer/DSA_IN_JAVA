@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving competitive coding question of linked-list(reverse list in groups..)">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/AddTwoList.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="Add two no of via linked-list.">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/PreviousSmallerElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/LinkedListReverseInGroupsPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/LinkedListReverseInGroupsPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/LinkedListReverseInGroupsPro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/LinkedListReverseInGroupsPro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/NodeSam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/NodeSam.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
     "Application.NaivePattern.executor": "Run",
     "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
+    "Application.PreviousSmallerElement.executor": "Debug",
     "Application.RadixSort.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.RobinKarp.executor": "Run",
@@ -98,7 +100,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddTwoList">
+  <component name="RunManager" selected="Application.PreviousSmallerElement">
     <configuration name="AddTwoList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.AddTwoList" />
       <module name="DSA_IN_JAVA" />
@@ -151,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListReverseInGroupsPro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
+    <configuration name="PreviousSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.PreviousSmallerElement" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PreviousSmallerElement" />
         <item itemvalue="Application.AddTwoList" />
         <item itemvalue="Application.AddTwoList (1)" />
         <item itemvalue="Application.LinkedListReverseInGroupsPro (2)" />
         <item itemvalue="Application.LinkedListReverseInGroupsPro (1)" />
-        <item itemvalue="Application.LinkedListReverseInGroupsPro" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777260293709</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add two no of via linked-list.">
+      <option name="closed" value="true" />
+      <created>1778093912918</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1778093912918</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -433,7 +443,8 @@
     <MESSAGE value="updated pattern searching logic" />
     <MESSAGE value="solving competitive coding question of String" />
     <MESSAGE value="solving competitive coding question of linked-list(reverse list in groups..)" />
-    <option name="LAST_COMMIT_MESSAGE" value="solving competitive coding question of linked-list(reverse list in groups..)" />
+    <MESSAGE value="Add two no of via linked-list." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add two no of via linked-list." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,6 +523,11 @@
           <url>file://$PROJECT_DIR$/src/com/samit/linkedlist/AddTwoList.java</url>
           <line>26</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/stack/PreviousSmallerElement.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
