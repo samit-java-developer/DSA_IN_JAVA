@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="Add two no of via linked-list.">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/PreviousSmallerElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/array/test/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/mathematics/practice/Sieve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/LinkedListReverseInGroupsPro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/LinkedListReverseInGroupsPro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/NodeSam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/linkedlist/NodeSam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaxEvenOddNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaxEvenOddNo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaximumCirculerSubArraySum2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/searching/MedianOfTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/searching/MedianOfTwoSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/array/MaxEvenOddNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/array/MaxEvenOddNo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/array/MaximumCirculerSubArraySum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/array/MaximumCircularSubArraySum2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/IntersectionOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/IntersectionOfTwoSortedArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +78,7 @@
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
     "Application.HashingWithChaining.executor": "Run",
+    "Application.IntersectionOfTwoSortedArrays.executor": "Run",
     "Application.JavaDet.executor": "Run",
     "Application.KMPAlgorithm.executor": "Debug",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
@@ -82,15 +90,22 @@
     "Application.LongestProperPrefixSuffix.executor": "Run",
     "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
     "Application.LongestSubSequence.executor": "Run",
+    "Application.MajorityElement.executor": "Debug",
+    "Application.MaxEvenOddNo.executor": "Debug",
+    "Application.MaximumCircularSubArraySum2.executor": "Run",
+    "Application.MaximumCirculerSubArraySum2.executor": "Run",
+    "Application.MedianOfTwoSortedArray.executor": "Run",
     "Application.MorethannBykOccurences.executor": "Debug",
     "Application.NByKOccurences.executor": "Run",
     "Application.NaivePattern.executor": "Run",
     "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.RobinKarp.executor": "Run",
+    "Application.Sieve.executor": "Run",
     "Application.UnorderedMap.executor": "Run",
     "Application.UnorderedMapCustom.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -100,13 +115,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PreviousSmallerElement">
-    <configuration name="AddTwoList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.AddTwoList" />
+  <component name="RunManager" selected="Application.IntersectionOfTwoSortedArrays">
+    <configuration name="IntersectionOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.IntersectionOfTwoSortedArrays" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AddTwoList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.AddTwoList" />
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.array.test.MajorityElement" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.array.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListReverseInGroupsPro (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
+    <configuration name="MaximumCircularSubArraySum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.array.MaximumCircularSubArraySum2" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListReverseInGroupsPro (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LinkedListReverseInGroupsPro" />
+    <configuration name="MedianOfTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.searching.MedianOfTwoSortedArray" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousSmallerElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.PreviousSmallerElement" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.QuickSort" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.stack.*" />
+          <option name="PATTERN" value="com.samit.sorting.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PreviousSmallerElement" />
-        <item itemvalue="Application.AddTwoList" />
-        <item itemvalue="Application.AddTwoList (1)" />
-        <item itemvalue="Application.LinkedListReverseInGroupsPro (2)" />
-        <item itemvalue="Application.LinkedListReverseInGroupsPro (1)" />
+        <item itemvalue="Application.IntersectionOfTwoSortedArrays" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MedianOfTwoSortedArray" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.MaximumCircularSubArraySum2" />
       </list>
     </recent_temporary>
   </component>
@@ -424,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1778093912918</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Add two no of via linked-list.">
+      <option name="closed" value="true" />
+      <created>1778781717974</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1778781717974</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -529,6 +552,16 @@
           <line>12</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/mathematics/practice/Sieve.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/samit/mathematics/practice/Sieve.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/com/samit/hashing/MorethannBykOccurences.java</url>
           <line>29</line>
@@ -546,6 +579,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java</url>
+          <line>13</line>
+          <properties class="com.samit.searching.MedianOfTwoSortedArray" method="findMedian">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
