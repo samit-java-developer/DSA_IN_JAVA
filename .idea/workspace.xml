@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="Add two no of via linked-list.">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/array/test/MajorityElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/mathematics/practice/Sieve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/QuickSort.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="revising whole concepts of linear data structure">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/MergeWithoutExtraSpace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaxEvenOddNo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaxEvenOddNo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/array/MaximumCirculerSubArraySum2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/searching/MedianOfTwoSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/searching/MedianOfTwoSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/array/MaxEvenOddNo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/array/MaxEvenOddNo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/array/MaximumCirculerSubArraySum2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/array/MaximumCircularSubArraySum2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/IntersectionOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/IntersectionOfTwoSortedArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountInversionInArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountInversionInArr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/practice/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/practice/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/CountInversionInArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/CountInversionInArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/practice/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +69,7 @@
     "Application.AddTwoList (1).executor": "Debug",
     "Application.AddTwoList.executor": "Debug",
     "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
+    "Application.CountInversionInArr.executor": "Run",
     "Application.CountingSort.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
@@ -115,7 +111,20 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoSortedArrays">
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="CountInversionInArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.CountInversionInArr" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntersectionOfTwoSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.sorting.IntersectionOfTwoSortedArrays" />
       <module name="DSA_IN_JAVA" />
@@ -135,19 +144,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.samit.array.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaximumCircularSubArraySum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.array.MaximumCircularSubArraySum2" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntersectionOfTwoSortedArrays" />
         <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.CountInversionInArr" />
+        <item itemvalue="Application.IntersectionOfTwoSortedArrays" />
         <item itemvalue="Application.MedianOfTwoSortedArray" />
         <item itemvalue="Application.MajorityElement" />
-        <item itemvalue="Application.MaximumCircularSubArraySum2" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +443,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778781717974</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="revising whole concepts of linear data structure">
+      <option name="closed" value="true" />
+      <created>1779952952650</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1779952952650</updated>
+    </task>
+    <task id="LOCAL-00033" summary="revising whole concepts of linear data structure">
+      <option name="closed" value="true" />
+      <created>1779952961843</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1779952961843</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -467,7 +479,8 @@
     <MESSAGE value="solving competitive coding question of String" />
     <MESSAGE value="solving competitive coding question of linked-list(reverse list in groups..)" />
     <MESSAGE value="Add two no of via linked-list." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add two no of via linked-list." />
+    <MESSAGE value="revising whole concepts of linear data structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="revising whole concepts of linear data structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
