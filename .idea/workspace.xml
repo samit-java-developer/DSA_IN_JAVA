@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="revising concepts of data structure">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/bitmagic/TestBit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/mathematics/practice/ComputingPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/bitmagic/CountSetBitsEfficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/bitmagic/CountSetBitsEfficient.java" afterDir="false" />
-    </list>
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="revising concepts bit magic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +64,7 @@
     "Application.ComputingPower.executor": "Run",
     "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
     "Application.CountInversionInArr.executor": "Run",
+    "Application.CountSetBitsEfficient.executor": "Run",
     "Application.CountingSort.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
@@ -467,7 +463,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783193506131</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="revising concepts bit magic">
+      <option name="closed" value="true" />
+      <created>1783488936631</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1783488936631</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -489,7 +493,8 @@
     <MESSAGE value="Add two no of via linked-list." />
     <MESSAGE value="revising whole concepts of linear data structure" />
     <MESSAGE value="revising concepts of data structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="revising concepts of data structure" />
+    <MESSAGE value="revising concepts bit magic" />
+    <option name="LAST_COMMIT_MESSAGE" value="revising concepts bit magic" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
