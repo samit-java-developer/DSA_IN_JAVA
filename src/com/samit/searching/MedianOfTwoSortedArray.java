@@ -19,7 +19,7 @@ public class MedianOfTwoSortedArray {
         while (low<=high){
             int mid=low+(high-low)/2;
             int i2= (n1+n2+1)/2- mid;
-            int max1= mid==0?Integer.MIN_VALUE:arr1[mid -1];
+            int max1=mid==0?Integer.MIN_VALUE:arr1[mid -1];
             int max2=i2==0?Integer.MIN_VALUE:arr2[i2-1];
             int min1=mid==n1?Integer.MAX_VALUE:arr1[mid];
             int min2=i2==n2?Integer.MAX_VALUE:arr2[i2];

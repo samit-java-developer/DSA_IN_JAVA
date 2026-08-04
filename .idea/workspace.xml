@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="started system design with solid principle">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/dependencyinversion/badcode/EmailNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/dependencyinversion/goodcode/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/interfacesegregation/badcode/Machine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/interfacesegregation/goodcode/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/liksovprinciple/badcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/liksovprinciple/goodcode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/openclosed/NOTE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/openclosed/badcode/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/openclosed/goodcode/GoodCodeOpenClose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/singleresponsbility/badcode/BreadBaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/solid/singleresponsbility/goodcode/Bakery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/lld/solid/openclosed/OpenClosed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/bitmagic/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/bitmagic/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/GoodCodeOpenClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/GoodCodeOpenClose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Triangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/bitmagic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/bitmagic/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +110,7 @@
     "Application.RobinKarp.executor": "Run",
     "Application.Sieve.executor": "Run",
     "Application.SwapEvenAndOddBits.executor": "Run",
-    "Application.Test.executor": "Run",
+    "Application.Test.executor": "Debug",
     "Application.TestBit.executor": "Run",
     "Application.UnorderedMap.executor": "Run",
     "Application.UnorderedMapCustom.executor": "Debug",
@@ -126,7 +121,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GoodCodeOpenClose">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Bakery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.lld.solid.singleresponsbility.goodcode.Bakery" />
       <module name="DSA_IN_JAVA" />
@@ -194,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.GoodCodeOpenClose" />
         <item itemvalue="Application.Bakery" />
         <item itemvalue="Application.BreadBaker" />
         <item itemvalue="Application.SwapEvenAndOddBits" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -514,7 +509,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785526364950</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="started system design with solid principle">
+      <option name="closed" value="true" />
+      <created>1785815592062</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1785815592062</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
