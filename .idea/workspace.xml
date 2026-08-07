@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="started system design with solid principle">
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="practicing concepts of LLD and HLD system design with solid principle">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/bitmagic/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/bitmagic/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/GoodCodeOpenClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/GoodCodeOpenClose.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Triangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/lld/solid/openclosed/goodcode/Triangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/bitmagic/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/bitmagic/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/searching/MedianOfTwoSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,61 +59,61 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddTwoList (1).executor": "Debug",
-    "Application.AddTwoList.executor": "Debug",
-    "Application.Bakery.executor": "Debug",
-    "Application.BreadBaker.executor": "Debug",
-    "Application.ComputingPower.executor": "Run",
-    "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
-    "Application.CountInversionInArr.executor": "Run",
-    "Application.CountSetBitsEfficient.executor": "Run",
-    "Application.CountingSort.executor": "Run",
-    "Application.GetMinimumInStack (1).executor": "Run",
-    "Application.GetMinimumInStack.executor": "Run",
-    "Application.GoodCodeOpenClose.executor": "Run",
-    "Application.HashingWithChaining.executor": "Run",
-    "Application.IntersectionOfTwoSortedArrays.executor": "Run",
-    "Application.JavaDet.executor": "Run",
-    "Application.KMPAlgorithm.executor": "Debug",
-    "Application.LargestRectangleWithAllOnes.executor": "Run",
-    "Application.LargestRectangularAreaInHistogram.executor": "Run",
-    "Application.LinearProbing.executor": "Run",
-    "Application.LinkedListReverseInGroupsPro (1).executor": "Run",
-    "Application.LinkedListReverseInGroupsPro (2).executor": "Run",
-    "Application.LinkedListReverseInGroupsPro.executor": "Run",
-    "Application.LongestProperPrefixSuffix.executor": "Run",
-    "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
-    "Application.LongestSubSequence.executor": "Run",
-    "Application.MajorityElement.executor": "Debug",
-    "Application.MaxEvenOddNo.executor": "Debug",
-    "Application.MaximumCircularSubArraySum2.executor": "Run",
-    "Application.MaximumCirculerSubArraySum2.executor": "Run",
-    "Application.MedianOfTwoSortedArray.executor": "Run",
-    "Application.MorethannBykOccurences.executor": "Debug",
-    "Application.NByKOccurences.executor": "Run",
-    "Application.NaivePattern.executor": "Run",
-    "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
-    "Application.PreviousGreaterElement.executor": "Run",
-    "Application.PreviousSmallerElement.executor": "Debug",
-    "Application.QuickSort.executor": "Run",
-    "Application.RadixSort.executor": "Run",
-    "Application.ReverseWords.executor": "Run",
-    "Application.RobinKarp.executor": "Run",
-    "Application.Sieve.executor": "Run",
-    "Application.SwapEvenAndOddBits.executor": "Run",
-    "Application.Test.executor": "Debug",
-    "Application.TestBit.executor": "Run",
-    "Application.UnorderedMap.executor": "Run",
-    "Application.UnorderedMapCustom.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddTwoList (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AddTwoList.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Bakery.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.BreadBaker.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ComputingPower.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountDistinctElementsInEveryWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.CountInversionInArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountSetBitsEfficient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountingSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetMinimumInStack (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetMinimumInStack.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoodCodeOpenClose.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HashingWithChaining.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaDet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.KMPAlgorithm.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LargestRectangleWithAllOnes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LargestRectangularAreaInHistogram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearProbing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListReverseInGroupsPro (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListReverseInGroupsPro (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListReverseInGroupsPro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestProperPrefixSuffix.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubArrayWithEqualZeroOne.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubSequence.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MajorityElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaxEvenOddNo.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MaximumCircularSubArraySum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaximumCirculerSubArraySum2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MedianOfTwoSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MorethannBykOccurences.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.NByKOccurences.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NaivePattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NthNumberMadeOfPrimeDigits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreviousGreaterElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RadixSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RobinKarp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sieve.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SwapEvenAndOddBits.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TestBit.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnorderedMap.executor&quot;: &quot;Run&quot;,
+    &quot;Application.UnorderedMapCustom.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Test">
     <configuration name="Bakery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.lld.solid.singleresponsbility.goodcode.Bakery" />
@@ -517,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785815592062</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="practicing concepts of LLD and HLD system design with solid principle">
+      <option name="closed" value="true" />
+      <created>1785867550065</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1785867550065</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -541,7 +542,8 @@
     <MESSAGE value="revising concepts of data structure" />
     <MESSAGE value="revising concepts bit magic" />
     <MESSAGE value="started system design with solid principle" />
-    <option name="LAST_COMMIT_MESSAGE" value="started system design with solid principle" />
+    <MESSAGE value="practicing concepts of LLD and HLD system design with solid principle" />
+    <option name="LAST_COMMIT_MESSAGE" value="practicing concepts of LLD and HLD system design with solid principle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
