@@ -8,7 +8,13 @@ public class RadixSort {
         int[] arr={319,212,6,8,100,50};
         //radixSort(arr,arr.length);
         arr=new int[]{319,212,6,8,100,50};
-        radixSortSamit(arr);
+        radixSort(arr,arr.length);
+        System.out.println(Arrays.toString(arr));
+        // we use counting sort as subroutine in radix sort.....
+        System.out.println("-------------------");
+        arr=new int[]{319,212,6,8,100,50};
+        System.out.println(Arrays.toString(arr));
+        radixSortS(arr);
         System.out.println(Arrays.toString(arr));
     }
 
@@ -59,31 +65,31 @@ public class RadixSort {
         System.arraycopy(output,0,arr,0,n);
     }
 
-    static void radixSortSamit(int[] arr){
-        int mx=Integer.MIN_VALUE;
-        for (int x:arr){
-            mx=Math.max(x,mx);
-        }
-        for (int exp=1;mx/exp>0;exp=exp*10){
-            sortViaDigit(arr,exp);
+    static void radixSortS(int[] arr){
+        int max=Arrays.stream(arr).max().getAsInt();
+        for (int exp=1;(max/exp)>0;exp=exp*10){
+            countingSortForRadix(arr,exp);
         }
     }
-    static void sortViaDigit(int[] arr, int exp) {
-        int[] count = new int[10];
-        Arrays.fill(count, 0);
-        int n = arr.length;
-        int[] output=new int[n];
-        for (int x : arr) {
-            count[(x / exp) % 10]++;
+
+    static void countingSortForRadix(int[] arr,int exp){
+        int[] count=new int[10];
+        int n=arr.length;
+        Arrays.fill(count,0);
+        for (int x:arr){
+            count[(x/exp)%10]++;
         }
         for (int i=1;i<10;i++){
             count[i]=count[i]+count[i-1];
         }
-
+        int[] output=new int[n];
         for (int i=n-1;i>=0;i--){
             output[count[(arr[i]/exp)%10]-1]=arr[i];
             count[(arr[i]/exp)%10]--;
         }
-        System.arraycopy(output,0,arr,0,n);
+        int i=0;
+        for (int x:output){
+            arr[i++]=x;
+        }
     }
 }

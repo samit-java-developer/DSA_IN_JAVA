@@ -1,0 +1,3 @@
+Introducing Our Savior: The Iterator Design Pattern 🦸‍♂️
+Now, let’s solve this problem using the Iterator Design Pattern! Instead of directly modifying the playPlaylist() method, we will define an iterator to abstract the iteration logic. This will allow us to easily add new
+functionality without modifying the core logic of the Playlist class.

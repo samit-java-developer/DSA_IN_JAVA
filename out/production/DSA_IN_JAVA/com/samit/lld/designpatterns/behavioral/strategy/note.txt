@@ -1,0 +1,8 @@
+Real-Life Scenario: Payment Processing in E-commerce 🛒💳
+Imagine you're developing an e-commerce platform where users can make purchases
+using various payment methods like Credit Cards, PayPal, or Cryptocurrency.
+Each payment method has its own unique processing logic.
+Without the Strategy Pattern, you'd likely have a large, monolithic class with
+many if-else or switch statements, checking for the payment method and executing
+ the specific logic for each one. But what happens when you need to add another payment method
+ (like Apple Pay or Stripe)? It becomes a nightmare to manage and extend.

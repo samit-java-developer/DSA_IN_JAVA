@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="practicing concepts of LLD and HLD system design with solid principle">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/bad/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/FavoritesPlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/PlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/ShuffledPlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/good/SimplePlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/iterator/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/CryptoPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/bad/StripePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/CryptoPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/PaymentStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/lld/designpatterns/behavioral/strategy/good/StripePayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/HoorePartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/LomutoPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/Simple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/java8/chatgpt/array/FindDuplicateElemntsInList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/java8/chatgpt/array/FindDuplicateElemntsInList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountingSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/CountingSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/RadixSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/RadixSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/java8/chatgpt/array/FindDuplicateElemntsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/java8/chatgpt/array/FindDuplicateElemntsInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/RadixSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +45,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,68 +90,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AddTwoList (1).executor&quot;: &quot;Debug&quot;,
-    &quot;Application.AddTwoList.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Bakery.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.BreadBaker.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.ComputingPower.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountDistinctElementsInEveryWindow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.CountInversionInArr.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountSetBitsEfficient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountingSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetMinimumInStack (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetMinimumInStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GoodCodeOpenClose.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashingWithChaining.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IntersectionOfTwoSortedArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JavaDet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KMPAlgorithm.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.LargestRectangleWithAllOnes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestRectangularAreaInHistogram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinearProbing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListReverseInGroupsPro (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListReverseInGroupsPro (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.LinkedListReverseInGroupsPro.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestProperPrefixSuffix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArrayWithEqualZeroOne.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubSequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MajorityElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaxEvenOddNo.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MaximumCircularSubArraySum2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumCirculerSubArraySum2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MedianOfTwoSortedArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MorethannBykOccurences.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.NByKOccurences.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NaivePattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NthNumberMadeOfPrimeDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreviousGreaterElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PreviousSmallerElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.QuickSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RadixSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RobinKarp.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sieve.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapEvenAndOddBits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Test.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TestBit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnorderedMap.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UnorderedMapCustom.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AddTwoList (1).executor": "Debug",
+    "Application.AddTwoList.executor": "Debug",
+    "Application.Bakery.executor": "Debug",
+    "Application.BreadBaker.executor": "Debug",
+    "Application.ComputingPower.executor": "Run",
+    "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
+    "Application.CountInversionInArr.executor": "Run",
+    "Application.CountSetBitsEfficient.executor": "Run",
+    "Application.CountingSort.executor": "Run",
+    "Application.GetMinimumInStack (1).executor": "Run",
+    "Application.GetMinimumInStack.executor": "Run",
+    "Application.GoodCodeOpenClose.executor": "Run",
+    "Application.HashingWithChaining.executor": "Run",
+    "Application.HoorePartition.executor": "Run",
+    "Application.IntersectionOfTwoSortedArrays.executor": "Run",
+    "Application.JavaDet.executor": "Run",
+    "Application.KMPAlgorithm.executor": "Debug",
+    "Application.LargestRectangleWithAllOnes.executor": "Run",
+    "Application.LargestRectangularAreaInHistogram.executor": "Run",
+    "Application.LinearProbing.executor": "Run",
+    "Application.LinkedListReverseInGroupsPro (1).executor": "Run",
+    "Application.LinkedListReverseInGroupsPro (2).executor": "Run",
+    "Application.LinkedListReverseInGroupsPro.executor": "Run",
+    "Application.LomutoPartition.executor": "Run",
+    "Application.LongestProperPrefixSuffix.executor": "Run",
+    "Application.LongestSubArrayWithEqualZeroOne.executor": "Run",
+    "Application.LongestSubSequence.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MajorityElement.executor": "Debug",
+    "Application.MaxEvenOddNo.executor": "Debug",
+    "Application.MaximumCircularSubArraySum2.executor": "Run",
+    "Application.MaximumCirculerSubArraySum2.executor": "Run",
+    "Application.MedianOfTwoSortedArray.executor": "Run",
+    "Application.MorethannBykOccurences.executor": "Debug",
+    "Application.NByKOccurences.executor": "Run",
+    "Application.NaivePattern.executor": "Run",
+    "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
+    "Application.PreviousGreaterElement.executor": "Run",
+    "Application.PreviousSmallerElement.executor": "Debug",
+    "Application.QuickSort.executor": "Run",
+    "Application.RadixSort.executor": "Debug",
+    "Application.ReverseWords.executor": "Run",
+    "Application.RobinKarp.executor": "Run",
+    "Application.Sieve.executor": "Run",
+    "Application.Simple.executor": "Run",
+    "Application.SwapEvenAndOddBits.executor": "Run",
+    "Application.Test.executor": "Debug",
+    "Application.TestBit.executor": "Run",
+    "Application.UnorderedMap.executor": "Run",
+    "Application.UnorderedMapCustom.executor": "Debug",
+    "Application.com.samit.lld.designpatterns.behavioral.iterator.good.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Bakery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.lld.solid.singleresponsbility.goodcode.Bakery" />
+}]]></component>
+  <component name="RunManager" selected="Application.HoorePartition">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.CountingSort" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.lld.solid.singleresponsbility.goodcode.*" />
+          <option name="PATTERN" value="com.samit.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BreadBaker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.lld.solid.singleresponsbility.badcode.BreadBaker" />
+    <configuration name="HoorePartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.HoorePartition" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.lld.solid.singleresponsbility.badcode.*" />
+          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoodCodeOpenClose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.lld.solid.openclosed.goodcode.GoodCodeOpenClose" />
+    <configuration name="LomutoPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.LomutoPartition" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.lld.solid.openclosed.goodcode.*" />
+          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwapEvenAndOddBits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.bitmagic.SwapEvenAndOddBits" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.RadixSort" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.bitmagic.*" />
+          <option name="PATTERN" value="com.samit.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.bitmagic.Test" />
+    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.Simple" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.bitmagic.*" />
+          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.GoodCodeOpenClose" />
-        <item itemvalue="Application.Bakery" />
-        <item itemvalue="Application.BreadBaker" />
-        <item itemvalue="Application.SwapEvenAndOddBits" />
+        <item itemvalue="Application.HoorePartition" />
+        <item itemvalue="Application.LomutoPartition" />
+        <item itemvalue="Application.Simple" />
+        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.CountingSort" />
       </list>
     </recent_temporary>
   </component>
@@ -518,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1785867550065</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="practicing concepts of LLD and HLD system design with solid principle">
+      <option name="closed" value="true" />
+      <created>1786129541244</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1786129541244</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

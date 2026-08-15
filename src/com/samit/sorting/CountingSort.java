@@ -1,13 +1,26 @@
 package com.samit.sorting;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class CountingSort {
 
     public static void main(String[] args) {
         int[] arr={1,4,4,1,0,1};
+        int max=Arrays.stream(arr).max().getAsInt();
+        //Arrays.stream(arr).boxed().max((a,b)->Math.max(a,b)); this is wrong
+        max=Arrays.stream(arr).boxed().max((a,b)-> { if (a.equals(b)) return 0;
+        else if (a<b) {
+            return -1;
+        }else {
+            return 1;
+        }
+        }).get();
+        System.out.println(max);
         int k=10;
         //countingSort(arr,k);
+        countingSort(arr);
+        System.out.println("--------------------------------");
         countingSortP(arr,k);
         System.out.println(Arrays.toString(arr));
         arr=new int[]{1,4,4,1,0,1};
@@ -110,5 +123,23 @@ public class CountingSort {
         System.arraycopy(output,0,arr,0,n);
     }
 
-
+    static void countingSort(int[] arr){
+        int max=Arrays.stream(arr).boxed().max(Integer::compare).get();
+        int[] count= new int[max+1];
+        Arrays.fill(count,0);
+        for (int j : arr) {
+            count[j]++;
+        }
+        for (int i=1;i<count.length;i++){
+            count[i]=count[i-1]+count[i];
+        }
+        int[] output=new int[arr.length];
+        for (int i=arr.length-1;i>=0;i--){
+            output[count[arr[i]]-1]=arr[i];
+            count[arr[i]]--;
+        }
+        for (int i=0;i<arr.length;i++){
+            System.out.print(output[i]+" ");
+        }
+    }
 }
