@@ -2,7 +2,7 @@ package com.samit.sorting.practice.quicksortPartition;
 
 import java.util.Arrays;
 
-public class LomutoPartition {
+public class LomuitoPartition {
     public static void main(String[] args) {
         // I always choose the last element as pivot
         int[] arr={1,4,5,7,8,2,3,6,9,2,3,5};

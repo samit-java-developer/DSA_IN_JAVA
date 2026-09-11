@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="doing coding related to dsa and system design">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/CPUIntensiveExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/MyThread2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadInterruptionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadLeakExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadPoolLifecycleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/executors/ExecutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/executors/ExecutorsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/interthreadcommunication/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/lock/ReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/lock/ReentrantLockExecutorExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/SleepExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/WaitNotifyExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/WaiterChefExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/threadsynchronization/CounterSyncMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/practice/quicksortPartition/LomutoPartition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/LomutoPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/LomuitoPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +82,16 @@
     "Application.AddTwoList.executor": "Debug",
     "Application.Bakery.executor": "Debug",
     "Application.BreadBaker.executor": "Debug",
+    "Application.CPUIntensiveExample (1).executor": "Run",
+    "Application.CPUIntensiveExample.executor": "Run",
     "Application.ComputingPower.executor": "Run",
     "Application.CountDistinctElementsInEveryWindow.executor": "Debug",
     "Application.CountInversionInArr.executor": "Run",
     "Application.CountSetBitsEfficient.executor": "Run",
+    "Application.CounterSyncMethod.executor": "Run",
     "Application.CountingSort.executor": "Run",
+    "Application.ExecutorsExample.executor": "Run",
+    "Application.ExecutorsUtil.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
     "Application.GoodCodeOpenClose.executor": "Run",
@@ -98,22 +118,32 @@
     "Application.MaximumCirculerSubArraySum2.executor": "Run",
     "Application.MedianOfTwoSortedArray.executor": "Run",
     "Application.MorethannBykOccurences.executor": "Debug",
+    "Application.MyThread2.executor": "Run",
     "Application.NByKOccurences.executor": "Run",
     "Application.NaivePattern.executor": "Run",
     "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
+    "Application.ProducerConsumer.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Debug",
+    "Application.ReadWriteLock.executor": "Run",
+    "Application.ReentrantLockExecutorExample.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.RobinKarp.executor": "Run",
     "Application.Sieve.executor": "Run",
     "Application.Simple.executor": "Run",
+    "Application.SleepExample.executor": "Run",
     "Application.SwapEvenAndOddBits.executor": "Run",
     "Application.Test.executor": "Debug",
     "Application.TestBit.executor": "Run",
+    "Application.ThreadInterruptionExample.executor": "Run",
+    "Application.ThreadLeakExample.executor": "Debug",
+    "Application.ThreadPoolLifecycleDemo.executor": "Run",
     "Application.UnorderedMap.executor": "Run",
     "Application.UnorderedMapCustom.executor": "Debug",
+    "Application.WaitNotifyExample.executor": "Run",
+    "Application.WaiterChefExample.executor": "Run",
     "Application.com.samit.lld.designpatterns.behavioral.iterator.good.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -122,13 +152,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.HeapSort" />
+  <component name="RunManager" selected="Application.ReadWriteLock">
+    <configuration name="CounterSyncMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.threadsynchronization.CounterSyncMethod" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.practice.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.threadsynchronization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoorePartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.HoorePartition" />
+    <configuration name="ExecutorsUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.executors.ExecutorsUtil" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LomutoPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.LomutoPartition" />
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.interthreadcommunication.ProducerConsumer" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.interthreadcommunication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.RadixSort" />
+    <configuration name="ReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.lock.ReadWriteLock" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.sorting.practice.quicksortPartition.Simple" />
+    <configuration name="ReentrantLockExecutorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.lock.ReentrantLockExecutorExample" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.sorting.practice.quicksortPartition.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.HoorePartition" />
-        <item itemvalue="Application.LomutoPartition" />
-        <item itemvalue="Application.Simple" />
-        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.ReadWriteLock" />
+        <item itemvalue="Application.ReentrantLockExecutorExample" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.CounterSyncMethod" />
+        <item itemvalue="Application.ExecutorsUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -542,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786771684962</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="doing coding related to dsa and system design">
+      <option name="closed" value="true" />
+      <created>1786779151035</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1786779151035</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
