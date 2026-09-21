@@ -4,24 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="doing coding related to dsa and system design">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/CPUIntensiveExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadInterruptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadLeakExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/ThreadPoolLifecycleDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/executors/ExecutorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/executors/ExecutorsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/interthreadcommunication/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/lock/ReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/lock/ReentrantLockExecutorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/SleepExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/WaitNotifyExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/sleepwait/WaiterChefExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/threadsynchronization/CounterSyncMethod.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="doing coding related to multithreading like semaphore">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/semaphore/FizzBuzzMultiThreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/semaphore/ReaderWriterLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/multithreading/advance/semaphore/ZeroEvenOddProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/sorting/practice/quicksortPartition/LomutoPartition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/LomutoPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/sorting/practice/quicksortPartition/LomuitoPartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +79,7 @@
     "Application.CountingSort.executor": "Run",
     "Application.ExecutorsExample.executor": "Run",
     "Application.ExecutorsUtil.executor": "Run",
+    "Application.FizzBuzzMultiThreaded.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
     "Application.GoodCodeOpenClose.executor": "Run",
@@ -128,6 +116,7 @@
     "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Debug",
     "Application.ReadWriteLock.executor": "Run",
+    "Application.ReaderWriterLock.executor": "Run",
     "Application.ReentrantLockExecutorExample.executor": "Run",
     "Application.ReverseWords.executor": "Run",
     "Application.RobinKarp.executor": "Run",
@@ -144,6 +133,7 @@
     "Application.UnorderedMapCustom.executor": "Debug",
     "Application.WaitNotifyExample.executor": "Run",
     "Application.WaiterChefExample.executor": "Run",
+    "Application.ZeroEvenOddProblem.executor": "Run",
     "Application.com.samit.lld.designpatterns.behavioral.iterator.good.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -152,39 +142,13 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReadWriteLock">
-    <configuration name="CounterSyncMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.threadsynchronization.CounterSyncMethod" />
+  <component name="RunManager" selected="Application.FizzBuzzMultiThreaded">
+    <configuration name="FizzBuzzMultiThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.FizzBuzzMultiThreaded" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.threadsynchronization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExecutorsUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.executors.ExecutorsUtil" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.executors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.interthreadcommunication.ProducerConsumer" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.interthreadcommunication.*" />
+          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,6 +169,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReaderWriterLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.ReaderWriterLock" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReentrantLockExecutorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.lock.ReentrantLockExecutorExample" />
       <module name="DSA_IN_JAVA" />
@@ -218,13 +195,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZeroEvenOddProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.ZeroEvenOddProblem" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FizzBuzzMultiThreaded" />
+        <item itemvalue="Application.ZeroEvenOddProblem" />
+        <item itemvalue="Application.ReaderWriterLock" />
         <item itemvalue="Application.ReadWriteLock" />
         <item itemvalue="Application.ReentrantLockExecutorExample" />
-        <item itemvalue="Application.ProducerConsumer" />
-        <item itemvalue="Application.CounterSyncMethod" />
-        <item itemvalue="Application.ExecutorsUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -580,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786779151035</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="doing coding related to multithreading like semaphore">
+      <option name="closed" value="true" />
+      <created>1789152747866</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1789152747866</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -606,7 +604,8 @@
     <MESSAGE value="started system design with solid principle" />
     <MESSAGE value="practicing concepts of LLD and HLD system design with solid principle" />
     <MESSAGE value="doing coding related to dsa and system design" />
-    <option name="LAST_COMMIT_MESSAGE" value="doing coding related to dsa and system design" />
+    <MESSAGE value="doing coding related to multithreading like semaphore" />
+    <option name="LAST_COMMIT_MESSAGE" value="doing coding related to multithreading like semaphore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
