@@ -70,12 +70,46 @@ public class RobinKarp {
         }
     }
 
+
+    static void printMatch(String txt, String pat) {
+        int n = txt.length();
+        int m = pat.length();
+        long d = 5;
+        long p = 0;
+        long t = 0;
+        long temp = 1;
+        for (int i = m - 1; i >= 0; i--) {
+            p = p + pat.charAt(i) * temp;
+            t = t + txt.charAt(i) * temp;
+            temp = temp * d;
+        }
+        for (int i = 0; i <= n - m; i++) {
+            int j;
+            if (t == p) {
+                for (j = 0; j < m; j++) {
+                    if (txt.charAt(i + j) != pat.charAt(j)) {
+                        break;
+                    }
+                }
+                if (j == m) {
+                    System.out.print(i + " ");
+                }
+            }
+            if (i < n - m) {
+                t = (d * t)
+                        + txt.charAt(i + m)
+                        - (temp * txt.charAt(i));
+            }
+        }
+    }
     public static void main(String[] args) {
-         String text="abcdefgh";
+         String text="abcdefghcde";
          String pat="cde";
-         printMatchIndexViaRabinKarp(text,pat);
-         boolean res=search(pat,text,101);
-         System.out.println(res);
+        // printMatchIndexViaRabinKarp(text,pat);
+         //boolean res=search(pat,text,101);
+         //System.out.println(res);
+        printMatch(text,pat);
+
 
 //        String s1="abcd";
 //        String s2="cdab";
