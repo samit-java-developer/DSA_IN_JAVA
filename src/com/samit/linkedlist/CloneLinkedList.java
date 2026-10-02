@@ -32,6 +32,32 @@ public class CloneLinkedList {
         return maps.get(head);
     }
 
+    public static Clone cloneInEfficientWay(Clone head){
+        Clone curr=head;
+        while (curr!=null){
+            Clone temp=new Clone(curr.data);
+            Clone next=curr.next;
+            curr.next=temp;
+            temp.next=next;
+            curr=next;
+        }
+        curr=head;
+        while (curr!=null && curr.next!=null){
+            curr.next.random=curr.random.next;
+            curr=curr.next.next;
+        }
+        curr=head;
+        Clone head2=head.next;
+        Clone curr2=head.next;
+        while (curr!=null && curr.next!=null){
+            curr.next=curr.next.next;
+            curr=curr.next;
+            curr2.next=curr2.next==null?null:curr2.next.next;
+            curr2=curr2.next;
+        }
+        return head2;
+    }
+
     public static void printList(Clone head){
         Clone curr=head;
         while (curr!=null){
@@ -60,5 +86,8 @@ public class CloneLinkedList {
         System.out.println();
         Clone cloned=cloneList(head);
         printList(cloned);
+        System.out.println();
+        Clone secondWay=cloneInEfficientWay(cloned);
+        printList(secondWay);
     }
 }

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written searching program of rabin karp">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CloneLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/string/searching/RobinKarp.class" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of clone the linked list">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/LRUCacheDesign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/CloneLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CloneLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +90,7 @@
     "Application.IntersectionOfTwoSortedArrays.executor": "Run",
     "Application.JavaDet.executor": "Run",
     "Application.KMPAlgorithm.executor": "Debug",
+    "Application.LRUCacheDesign.executor": "Run",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
@@ -142,7 +144,7 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CloneLinkedList">
+  <component name="RunManager" selected="Application.LRUCacheDesign">
     <configuration name="BoundedBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.BoundedBlockingQueue" />
       <module name="DSA_IN_JAVA" />
@@ -182,6 +184,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LRUCacheDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LRUCacheDesign" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RobinKarp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.RobinKarp" />
       <module name="DSA_IN_JAVA" />
@@ -195,26 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroEvenOddProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.ZeroEvenOddProblem" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LRUCacheDesign" />
         <item itemvalue="Application.CloneLinkedList" />
         <item itemvalue="Application.RobinKarp" />
         <item itemvalue="Application.BoundedBlockingQueue" />
         <item itemvalue="Application.FizzBuzzMultiThreaded" />
-        <item itemvalue="Application.ZeroEvenOddProblem" />
       </list>
     </recent_temporary>
   </component>
@@ -610,7 +612,15 @@
       <option name="project" value="LOCAL" />
       <updated>1790620351099</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="written code of clone the linked list">
+      <option name="closed" value="true" />
+      <created>1790922795097</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1790922795097</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -638,7 +648,8 @@
     <MESSAGE value="doing coding related to dsa and system design" />
     <MESSAGE value="doing coding related to multithreading like semaphore" />
     <MESSAGE value="written searching program of rabin karp" />
-    <option name="LAST_COMMIT_MESSAGE" value="written searching program of rabin karp" />
+    <MESSAGE value="written code of clone the linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="written code of clone the linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
