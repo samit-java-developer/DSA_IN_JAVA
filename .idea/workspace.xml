@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of clone the linked list">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/LRUCacheDesign.java" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of LRU cache using hash-table with doubly linked list">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/GenerateNumberWithGIvenDigit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/StackUsingQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/InfixToPostfix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/InfixToPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/LargestRectangularArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/NextGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/PreviousGreaterElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/PrintSpan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/linkedlist/CloneLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/linkedlist/CloneLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +87,21 @@
     "Application.ExecutorsExample.executor": "Run",
     "Application.ExecutorsUtil.executor": "Run",
     "Application.FizzBuzzMultiThreaded.executor": "Run",
+    "Application.GenerateNumberWithGIvenDigit.executor": "Run",
     "Application.GetMinimumInStack (1).executor": "Run",
     "Application.GetMinimumInStack.executor": "Run",
     "Application.GoodCodeOpenClose.executor": "Run",
     "Application.HashingWithChaining.executor": "Run",
     "Application.HeapSort.executor": "Run",
     "Application.HoorePartition.executor": "Run",
+    "Application.InfixToPostfix.executor": "Run",
+    "Application.InfixToPrefix.executor": "Run",
     "Application.IntersectionOfTwoSortedArrays.executor": "Run",
     "Application.JavaDet.executor": "Run",
     "Application.KMPAlgorithm.executor": "Debug",
     "Application.LRUCacheDesign.executor": "Run",
     "Application.LargestRectangleWithAllOnes.executor": "Run",
+    "Application.LargestRectangularArea.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LinearProbing.executor": "Run",
     "Application.LinkedListReverseInGroupsPro (1).executor": "Run",
@@ -111,9 +121,11 @@
     "Application.MyThread2.executor": "Run",
     "Application.NByKOccurences.executor": "Run",
     "Application.NaivePattern.executor": "Run",
+    "Application.NextGreaterElement.executor": "Run",
     "Application.NthNumberMadeOfPrimeDigits.executor": "Run",
     "Application.PreviousGreaterElement.executor": "Run",
     "Application.PreviousSmallerElement.executor": "Debug",
+    "Application.PrintSpan.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Debug",
@@ -144,13 +156,18 @@
     "git-widget-placeholder": "main"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LRUCacheDesign">
-    <configuration name="BoundedBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.BoundedBlockingQueue" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.samit.stack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GenerateNumberWithGIvenDigit">
+    <configuration name="GenerateNumberWithGIvenDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.GenerateNumberWithGIvenDigit" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
+          <option name="PATTERN" value="com.samit.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.CloneLinkedList" />
+    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.InfixToPostfix" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzMultiThreaded" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.multithreading.advance.semaphore.FizzBuzzMultiThreaded" />
+    <configuration name="InfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.InfixToPrefix" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.multithreading.advance.semaphore.*" />
+          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LRUCacheDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.linkedlist.LRUCacheDesign" />
+    <configuration name="LargestRectangularArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.practice.LargestRectangularArea" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.linkedlist.*" />
+          <option name="PATTERN" value="com.samit.stack.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RobinKarp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.string.searching.RobinKarp" />
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.stack.practice.NextGreaterElement" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.string.searching.*" />
+          <option name="PATTERN" value="com.samit.stack.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LRUCacheDesign" />
-        <item itemvalue="Application.CloneLinkedList" />
-        <item itemvalue="Application.RobinKarp" />
-        <item itemvalue="Application.BoundedBlockingQueue" />
-        <item itemvalue="Application.FizzBuzzMultiThreaded" />
+        <item itemvalue="Application.GenerateNumberWithGIvenDigit" />
+        <item itemvalue="Application.InfixToPostfix" />
+        <item itemvalue="Application.InfixToPrefix" />
+        <item itemvalue="Application.LargestRectangularArea" />
+        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +244,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770059016616</updated>
-    </task>
-    <task id="LOCAL-00001" summary="updated code">
-      <option name="closed" value="true" />
-      <created>1770059130073</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1770059130073</updated>
     </task>
     <task id="LOCAL-00002" summary="updated code">
       <option name="closed" value="true" />
@@ -620,11 +629,18 @@
       <option name="project" value="LOCAL" />
       <updated>1790922795097</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="written code of LRU cache using hash-table with doubly linked list">
+      <option name="closed" value="true" />
+      <created>1790938769773</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1790938769773</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated code" />
     <MESSAGE value="written code of largest rectangular" />
     <MESSAGE value="written code of get minimum in o(1) time" />
     <MESSAGE value="written code of get minimum in o(1) time in stack" />
@@ -649,7 +665,8 @@
     <MESSAGE value="doing coding related to multithreading like semaphore" />
     <MESSAGE value="written searching program of rabin karp" />
     <MESSAGE value="written code of clone the linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="written code of clone the linked list" />
+    <MESSAGE value="written code of LRU cache using hash-table with doubly linked list" />
+    <option name="LAST_COMMIT_MESSAGE" value="written code of LRU cache using hash-table with doubly linked list" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
