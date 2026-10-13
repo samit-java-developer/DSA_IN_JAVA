@@ -69,5 +69,8 @@ public class QueueImplementationViaArr {
         queue.enqueue(50);
         System.out.println(Arrays.toString(queue.arr));
         queue.dequeue();
+        System.out.println(Arrays.toString(queue.arr));
+        queue.enqueue(60);
+        queue.enqueue(70);
     }
 }
