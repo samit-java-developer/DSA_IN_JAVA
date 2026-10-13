@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="written code of LRU cache using hash-table with doubly linked list">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/GenerateNumberWithGIvenDigit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/StackUsingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/InfixToPostfix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/InfixToPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/LargestRectangularArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/PreviousGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/samit/stack/practice/PrintSpan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving problem related to queue data structure.">
+      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/QueueImplementationViaArr.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +119,7 @@
     "Application.PreviousSmallerElement.executor": "Debug",
     "Application.PrintSpan.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
+    "Application.QueueImplementationViaArr.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Debug",
     "Application.ReadWriteLock.executor": "Run",
@@ -161,7 +154,7 @@
       <recent name="com.samit.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateNumberWithGIvenDigit">
+  <component name="RunManager" selected="Application.QueueImplementationViaArr (1)">
     <configuration name="GenerateNumberWithGIvenDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.queue.GenerateNumberWithGIvenDigit" />
       <module name="DSA_IN_JAVA" />
@@ -201,12 +194,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestRectangularArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.practice.LargestRectangularArea" />
+    <configuration name="QueueImplementationViaArr (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.QueueImplementationViaArr" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.stack.practice.*" />
+          <option name="PATTERN" value="com.samit.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +207,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.practice.NextGreaterElement" />
+    <configuration name="QueueImplementationViaArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.QueueImplementationViaArr" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.samit.stack.practice.*" />
+          <option name="PATTERN" value="com.samit.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueImplementationViaArr (1)" />
+        <item itemvalue="Application.QueueImplementationViaArr" />
         <item itemvalue="Application.GenerateNumberWithGIvenDigit" />
         <item itemvalue="Application.InfixToPostfix" />
         <item itemvalue="Application.InfixToPrefix" />
-        <item itemvalue="Application.LargestRectangularArea" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -244,22 +237,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770059016616</updated>
-    </task>
-    <task id="LOCAL-00002" summary="updated code">
-      <option name="closed" value="true" />
-      <created>1770059742401</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1770059742401</updated>
-    </task>
-    <task id="LOCAL-00003" summary="written code of largest rectangular">
-      <option name="closed" value="true" />
-      <created>1770398376729</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1770398376729</updated>
     </task>
     <task id="LOCAL-00004" summary="written code of largest rectangular">
       <option name="closed" value="true" />
@@ -637,11 +614,26 @@
       <option name="project" value="LOCAL" />
       <updated>1790938769773</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="solving problem related to queue data structure.">
+      <option name="closed" value="true" />
+      <created>1791700858774</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1791700858774</updated>
+    </task>
+    <task id="LOCAL-00052" summary="solving problem related to queue data structure.">
+      <option name="closed" value="true" />
+      <created>1791779142536</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1791779142536</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="written code of largest rectangular" />
     <MESSAGE value="written code of get minimum in o(1) time" />
     <MESSAGE value="written code of get minimum in o(1) time in stack" />
     <MESSAGE value="written code of get minimum in o(1) time in stack with no space" />
@@ -666,7 +658,8 @@
     <MESSAGE value="written searching program of rabin karp" />
     <MESSAGE value="written code of clone the linked list" />
     <MESSAGE value="written code of LRU cache using hash-table with doubly linked list" />
-    <option name="LAST_COMMIT_MESSAGE" value="written code of LRU cache using hash-table with doubly linked list" />
+    <MESSAGE value="solving problem related to queue data structure." />
+    <option name="LAST_COMMIT_MESSAGE" value="solving problem related to queue data structure." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
