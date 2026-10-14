@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="solving problem related to queue data structure.">
-      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/QueueImplementationViaArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/queue/StackUsingQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_IN_JAVA/com/samit/queue/StackUsingQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/samit/queue/StackUsingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/queue/StackUsingQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +121,7 @@
     "Application.PreviousSmallerElement.executor": "Debug",
     "Application.PrintSpan.executor": "Run",
     "Application.ProducerConsumer.executor": "Run",
+    "Application.QueueImplementationViaArr (1).executor": "Run",
     "Application.QueueImplementationViaArr.executor": "Run",
     "Application.QuickSort.executor": "Run",
     "Application.RadixSort.executor": "Debug",
@@ -130,6 +133,7 @@
     "Application.Sieve.executor": "Run",
     "Application.Simple.executor": "Run",
     "Application.SleepExample.executor": "Run",
+    "Application.StackUsingQueue.executor": "Run",
     "Application.SwapEvenAndOddBits.executor": "Run",
     "Application.Test.executor": "Debug",
     "Application.TestBit.executor": "Run",
@@ -154,39 +158,13 @@
       <recent name="com.samit.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueImplementationViaArr">
+  <component name="RunManager" selected="Application.StackUsingQueue (1)">
     <configuration name="GenerateNumberWithGIvenDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.queue.GenerateNumberWithGIvenDigit" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.samit.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.InfixToPostfix" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InfixToPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.stack.InfixToPrefix" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,13 +198,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackUsingQueue (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.StackUsingQueue" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackUsingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.StackUsingQueue" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackUsingQueue (1)" />
+        <item itemvalue="Application.StackUsingQueue" />
         <item itemvalue="Application.QueueImplementationViaArr" />
         <item itemvalue="Application.QueueImplementationViaArr (1)" />
         <item itemvalue="Application.GenerateNumberWithGIvenDigit" />
-        <item itemvalue="Application.InfixToPostfix" />
-        <item itemvalue="Application.InfixToPrefix" />
       </list>
     </recent_temporary>
   </component>
@@ -237,22 +241,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770059016616</updated>
-    </task>
-    <task id="LOCAL-00004" summary="written code of largest rectangular">
-      <option name="closed" value="true" />
-      <created>1770400767104</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1770400767104</updated>
-    </task>
-    <task id="LOCAL-00005" summary="written code of largest rectangular">
-      <option name="closed" value="true" />
-      <created>1770402027956</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1770402027956</updated>
     </task>
     <task id="LOCAL-00006" summary="written code of get minimum in o(1) time">
       <option name="closed" value="true" />
@@ -630,7 +618,23 @@
       <option name="project" value="LOCAL" />
       <updated>1791779142536</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="solving problem related to queue data structure.">
+      <option name="closed" value="true" />
+      <created>1791861393100</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1791861393100</updated>
+    </task>
+    <task id="LOCAL-00054" summary="solving problem related to queue data structure.">
+      <option name="closed" value="true" />
+      <created>1791861484510</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1791861484510</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
