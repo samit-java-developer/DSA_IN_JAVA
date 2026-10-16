@@ -3,8 +3,8 @@ package com.samit.queue;
 import java.util.Stack;
 
 class QueueStack{
-    Stack<Integer> stack1=new Stack<>();
-    Stack<Integer> stack2=new Stack<>();
+    static Stack<Integer> stack1=new Stack<>();
+    static Stack<Integer> stack2=new Stack<>();
 
     public void enqueue(int x) {
         while (!stack1.isEmpty()){
@@ -16,7 +16,7 @@ class QueueStack{
         }
     }
 
-    public int pop(){
+    public int dequeue(){
         return stack1.pop();
     }
 }
@@ -24,6 +24,13 @@ class QueueStack{
 public class QueueUsingStack {
 
     public static void main(String[] args) {
-
+        QueueStack queue=new QueueStack();
+        queue.enqueue(10);
+        queue.enqueue(20);
+        queue.enqueue(30);
+        System.out.print(queue.dequeue()+" ");
+        System.out.print(queue.dequeue()+" ");
+        queue.enqueue(40);
+        System.out.print(queue.dequeue()+" ");
     }
 }
