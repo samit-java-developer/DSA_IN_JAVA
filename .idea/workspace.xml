@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3527c926-f8bd-4e5e-a86a-9ecc9d62ac92" name="Changes" comment="Implemented queue using stack.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/samit/queue/QueueUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/samit/queue/QueueUsingStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/samit/queue/ReversingTheFirstKElementsOfQueue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +128,7 @@
     "Application.ReaderWriterLock.executor": "Run",
     "Application.ReentrantLockExecutorExample.executor": "Run",
     "Application.ReverseWords.executor": "Run",
+    "Application.ReversingTheFirstKElementsOfQueue.executor": "Run",
     "Application.RobinKarp.executor": "Run",
     "Application.Sieve.executor": "Run",
     "Application.Simple.executor": "Run",
@@ -159,20 +159,7 @@
       <recent name="com.samit.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueUsingStack">
-    <configuration name="QueueImplementationViaArr (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.samit.queue.QueueImplementationViaArr" />
-      <module name="DSA_IN_JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.samit.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReversingTheFirstKElementsOfQueue">
     <configuration name="QueueImplementationViaArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.queue.QueueImplementationViaArr" />
       <module name="DSA_IN_JAVA" />
@@ -188,6 +175,19 @@
     </configuration>
     <configuration name="QueueUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.samit.queue.QueueUsingStack" />
+      <module name="DSA_IN_JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.samit.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReversingTheFirstKElementsOfQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.samit.queue.ReversingTheFirstKElementsOfQueue" />
       <module name="DSA_IN_JAVA" />
       <extension name="coverage">
         <pattern>
@@ -227,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReversingTheFirstKElementsOfQueue" />
         <item itemvalue="Application.QueueUsingStack" />
         <item itemvalue="Application.StackUsingQueue (1)" />
         <item itemvalue="Application.StackUsingQueue" />
         <item itemvalue="Application.QueueImplementationViaArr" />
-        <item itemvalue="Application.QueueImplementationViaArr (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +242,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1770059016616</updated>
-    </task>
-    <task id="LOCAL-00008" summary="written code of get minimum in o(1) time in stack with no space">
-      <option name="closed" value="true" />
-      <created>1770457662245</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1770457662245</updated>
     </task>
     <task id="LOCAL-00009" summary="written efficient code of LargestRectangular Area">
       <option name="closed" value="true" />
@@ -635,7 +627,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792089474917</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Implemented queue using stack.">
+      <option name="closed" value="true" />
+      <created>1792124659841</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1792124659841</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
